@@ -29,9 +29,11 @@ Thumbs.db
 
 # === Claude ===
 .claude/
+.impeccable/
 
 # === 项目无关文件 ===
 .moss-*/
+官方网页/
 .playwright-mcp/
 *.png
 *.docx
