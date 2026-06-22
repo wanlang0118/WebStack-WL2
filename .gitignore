@@ -27,6 +27,19 @@ dist/
 .DS_Store
 Thumbs.db
 
+# === Claude ===
+.claude/
+
+# === 项目无关文件 ===
+.moss-*/
+.playwright-mcp/
+*.png
+*.docx
+*.doc
+~$*
+uploads/
+report-generator/
+
 # === Env ===
 .env.local
 .env.*.local
