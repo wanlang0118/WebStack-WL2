@@ -1,0 +1,127 @@
+/* 基础重置与变量 */
+:root {
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --text-main: #1f2937;
+    --text-light: #6b7280;
+    --bg-glass: rgba(255, 255, 255, 0.8);
+    --border-glass: rgba(255, 255, 255, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f3f4f6;
+    /* 演示用的渐变背景，方便观察毛玻璃效果 */
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    min-height: 200vh; 
+}
+
+/* 导航栏主体 */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* 核心：毛玻璃效果 */
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-glass);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+/* 导航栏容器布局 */
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo 样式 */
+.nav-logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    letter-spacing: -0.5px;
+}
+
+.logo-text {
+    background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 菜单项布局 */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+    position: relative;
+}
+
+/* 悬停与激活状态 */
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color);
+}
+
+/* 底部悬停下划线动画 */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+}
+
+/* 右侧按钮 */
+.btn-primary {
+    padding: 0.5rem 1.2rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+/* 演示内容区域样式 */
+.hero-section {
+    padding-top: 150px;
+    text-align: center;
+    color: var(--text-main);
+}

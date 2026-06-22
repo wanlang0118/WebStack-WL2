@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="webstack.module.siteComment.mapper.SiteCommentMapper">
+
+    <select id="selectCommentPage" resultType="webstack.module.siteComment.vo.SiteCommentVO">
+        SELECT
+            c.id,
+            c.site_id,
+            s.title AS site_title,
+            c.user_id,
+            u.username,
+            c.guest_name,
+            c.guest_email,
+            c.guest_url,
+            c.content,
+            c.parent_id,
+            c.status,
+            c.create_time
+        FROM site_comment c
+        LEFT JOIN site s ON c.site_id = s.id
+        LEFT JOIN sys_user u ON c.user_id = u.id
+        <where>
+            c.parent_id IS NULL
+            <if test="dto.siteId != null">
+                AND c.site_id = #{dto.siteId}
+            </if>
+            <if test="dto.status != null">
+                AND c.status = #{dto.status}
+            </if>
+            <if test="dto.keyword != null and dto.keyword != ''">
+                AND (c.content LIKE CONCAT('%', #{dto.keyword}, '%')
+                     OR c.guest_name LIKE CONCAT('%', #{dto.keyword}, '%'))
+            </if>
+        </where>
+        ORDER BY c.create_time DESC
+    </select>
+
+    <select id="selectChildrenByParentIds" resultType="webstack.module.siteComment.vo.SiteCommentVO">
+        SELECT
+            c.id,
+            c.site_id,
+            s.title AS site_title,
+            c.user_id,
+            u.username,
+            c.guest_name,
+            c.guest_email,
+            c.guest_url,
+            c.content,
+            c.parent_id,
+            c.status,
+            c.create_time
+        FROM site_comment c
+        LEFT JOIN site s ON c.site_id = s.id
+        LEFT JOIN sys_user u ON c.user_id = u.id
+        WHERE c.parent_id IN
+        <foreach collection="parentIds" item="pid" open="(" separator="," close=")">
+            #{pid}
+        </foreach>
+        ORDER BY c.create_time ASC
+    </select>
+
+</mapper>

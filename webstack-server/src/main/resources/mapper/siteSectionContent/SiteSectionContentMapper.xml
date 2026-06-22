@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="webstack.module.siteSectionContent.mapper.SiteSectionContentMapper">
+
+    <select id="selectBySectionId" resultType="webstack.module.siteSectionContent.entity.SiteSectionContent">
+        SELECT * FROM site_section_content WHERE section_id = #{sectionId} ORDER BY sort ASC, id ASC
+    </select>
+
+</mapper>

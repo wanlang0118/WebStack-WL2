@@ -1,0 +1,21 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "WebStack" [ref=e6]
+      - generic [ref=e7]: WebStack
+    - navigation [ref=e8]:
+      - generic [ref=e10]: 暂无分类
+    - button "◀ 收起侧边栏" [ref=e12] [cursor=pointer]:
+      - generic [ref=e13]: ◀
+      - generic [ref=e14]: 收起侧边栏
+  - banner [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - img "WebStack" [ref=e19]
+        - heading "WebStack 导航" [level=1] [ref=e20]
+      - paragraph [ref=e21]: 发现最好的工具和网站
+      - generic [ref=e22]:
+        - generic: 🔍
+        - textbox "搜索网站名称或简介..." [ref=e23]
+      - button "🌙" [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]: 🌙

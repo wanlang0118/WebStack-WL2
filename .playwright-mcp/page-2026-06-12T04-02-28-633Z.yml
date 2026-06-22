@@ -1,0 +1,50 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - link "W WebStack" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: W
+        - generic [ref=e8]: WebStack
+      - button "收起侧边栏" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 
+    - navigation "分类导航" [ref=e11]:
+      - list
+  - generic [ref=e12]:
+    - banner [ref=e13]:
+      - navigation [ref=e15]:
+        - link "首页" [ref=e16] [cursor=pointer]:
+          - /url: /
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - heading "WebStack-WL" [level=1] [ref=e20]
+        - paragraph [ref=e21]: 收录优质网站与工具，助你高效发现好资源
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - button "站内" [ref=e24] [cursor=pointer]
+            - button "百度" [ref=e25] [cursor=pointer]
+            - button "Google" [ref=e26] [cursor=pointer]
+            - button "Bing" [ref=e27] [cursor=pointer]
+            - button "GitHub" [ref=e28] [cursor=pointer]
+          - generic [ref=e29]:
+            - generic [ref=e31]: 
+            - textbox "搜索站内网站..." [ref=e32]
+            - generic [ref=e34]: /
+            - text: 
+            - button "执行搜索" [ref=e35] [cursor=pointer]:
+              - generic [ref=e36]: 
+        - generic [ref=e37]:
+          - link "淘宝" [ref=e38] [cursor=pointer]:
+            - /url: https://www.taobao.com
+          - link "京东" [ref=e39] [cursor=pointer]:
+            - /url: https://www.jd.com
+          - link "知乎" [ref=e40] [cursor=pointer]:
+            - /url: https://www.zhihu.com
+          - link "GitHub" [ref=e41] [cursor=pointer]:
+            - /url: https://github.com
+          - link "百度" [ref=e42] [cursor=pointer]:
+            - /url: https://www.baidu.com
+      - paragraph [ref=e46]: 正在加载...
+    - contentinfo [ref=e47]:
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: WebStack-WL 网址导航 · 收录优质网站与工具
+        - paragraph [ref=e50]: © 2026 WebStack-WL

@@ -1,0 +1,284 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "消息通知",
+    "description": "WebStack 消息通知模块 API（管理端，需登录 Bearer Token）。notice_type：1=系统公告，2=评论回复，3=点赞提醒（保留枚举，当前不自动生成）。",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8180",
+      "description": "本地开发环境"
+    }
+  ],
+  "tags": [
+    {
+      "name": "消息通知",
+      "description": "sys_notice 表：分页查询、全员广播、标记已读、删除"
+    }
+  ],
+  "paths": {
+    "/api/notice/page": {
+      "get": {
+        "tags": ["消息通知"],
+        "summary": "分页查询通知",
+        "description": "管理端分页查询，支持按接收者、类型、已读状态、关键词筛选",
+        "operationId": "getNoticePage",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "page", "in": "query", "schema": { "type": "integer", "default": 1 }, "description": "页码" },
+          { "name": "size", "in": "query", "schema": { "type": "integer", "default": 10 }, "description": "每页条数" },
+          { "name": "receiverId", "in": "query", "schema": { "type": "integer" }, "description": "按接收者用户 ID 过滤" },
+          { "name": "noticeType", "in": "query", "schema": { "type": "integer", "enum": [1, 2, 3] }, "description": "类型：1=系统公告，2=评论回复，3=点赞提醒" },
+          { "name": "isRead", "in": "query", "schema": { "type": "integer", "enum": [0, 1] }, "description": "已读状态：0=未读，1=已读" },
+          { "name": "keyword", "in": "query", "schema": { "type": "string" }, "description": "模糊搜索标题或摘要" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultPageSysNoticeVO" },
+                "example": {
+                  "code": 200,
+                  "message": "操作成功",
+                  "data": {
+                    "records": [
+                      {
+                        "id": 1,
+                        "senderId": 0,
+                        "senderName": "系统",
+                        "receiverId": 1,
+                        "receiverName": "管理员",
+                        "noticeType": 1,
+                        "sourceSiteId": null,
+                        "siteTitle": null,
+                        "sourceCommentId": null,
+                        "title": "系统维护通知",
+                        "summary": "本周六凌晨进行系统维护，请提前保存数据",
+                        "content": "尊敬的用户，系统将于本周六 02:00-04:00 进行维护升级，期间可能无法访问，请提前保存数据。",
+                        "isRead": 0,
+                        "createTime": "2026-06-09 10:00:00",
+                        "readTime": null
+                      },
+                      {
+                        "id": 2,
+                        "senderId": 1,
+                        "senderName": "管理员",
+                        "receiverId": 2,
+                        "receiverName": "张三",
+                        "noticeType": 2,
+                        "sourceSiteId": 1,
+                        "siteTitle": "示例网站",
+                        "sourceCommentId": 5,
+                        "title": "您的评论收到新回复",
+                        "summary": "感谢您的评论，已收到。",
+                        "content": "感谢您的评论，已收到。",
+                        "isRead": 0,
+                        "createTime": "2026-06-09 11:30:00",
+                        "readTime": null
+                      }
+                    ],
+                    "total": 2,
+                    "size": 10,
+                    "current": 1,
+                    "pages": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/notice/broadcast": {
+      "post": {
+        "tags": ["消息通知"],
+        "summary": "全员广播系统公告",
+        "description": "向 sys_user 表中所有用户各插入一条 notice_type=1 的通知记录",
+        "operationId": "broadcastNotice",
+        "security": [{ "BearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/SysNoticeSendDTO" },
+              "example": {
+                "title": "系统维护通知",
+                "summary": "本周六凌晨进行系统维护，请提前保存数据",
+                "content": "尊敬的用户，系统将于本周六 02:00-04:00 进行维护升级，期间可能无法访问，请提前保存数据。"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" },
+                "example": {
+                  "code": 200,
+                  "message": "操作成功",
+                  "data": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/notice/read/{id}": {
+      "put": {
+        "tags": ["消息通知"],
+        "summary": "标记已读",
+        "description": "将指定通知设为已读（is_read=1），并记录 read_time",
+        "operationId": "markNoticeRead",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer", "format": "int64" }, "description": "通知 ID" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/notice/{id}": {
+      "delete": {
+        "tags": ["消息通知"],
+        "summary": "删除单条通知",
+        "operationId": "deleteNotice",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer", "format": "int64" }, "description": "通知 ID" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/notice/batch-delete": {
+      "post": {
+        "tags": ["消息通知"],
+        "summary": "批量删除通知",
+        "operationId": "batchDeleteNotice",
+        "security": [{ "BearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": { "type": "integer", "format": "int64" }
+              },
+              "example": [1, 2, 3]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          },
+          "500": {
+            "description": "空列表",
+            "content": {
+              "application/json": {
+                "example": {
+                  "code": 500,
+                  "message": "请选择要删除的数据",
+                  "data": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "先调用 POST /api/auth/login 获取 token；webstack2 环境变量 bearertoken 可自动写入"
+      }
+    },
+    "schemas": {
+      "ResultVoid": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "integer", "example": 200 },
+          "message": { "type": "string", "example": "操作成功" },
+          "data": { "nullable": true }
+        }
+      },
+      "ResultPageSysNoticeVO": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "integer", "example": 200 },
+          "message": { "type": "string", "example": "操作成功" },
+          "data": { "$ref": "#/components/schemas/PageSysNoticeVO" }
+        }
+      },
+      "PageSysNoticeVO": {
+        "type": "object",
+        "properties": {
+          "records": { "type": "array", "items": { "$ref": "#/components/schemas/SysNoticeVO" } },
+          "total": { "type": "integer", "format": "int64" },
+          "size": { "type": "integer", "format": "int64" },
+          "current": { "type": "integer", "format": "int64" },
+          "pages": { "type": "integer", "format": "int64" }
+        }
+      },
+      "SysNoticeVO": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer", "format": "int64" },
+          "senderId": { "type": "integer", "description": "发送者 ID，0=系统" },
+          "senderName": { "type": "string", "nullable": true },
+          "receiverId": { "type": "integer" },
+          "receiverName": { "type": "string", "nullable": true },
+          "noticeType": { "type": "integer", "description": "1=系统公告，2=评论回复，3=点赞提醒" },
+          "sourceSiteId": { "type": "integer", "nullable": true },
+          "siteTitle": { "type": "string", "nullable": true },
+          "sourceCommentId": { "type": "integer", "format": "int64", "nullable": true },
+          "title": { "type": "string", "nullable": true },
+          "summary": { "type": "string" },
+          "content": { "type": "string" },
+          "isRead": { "type": "integer", "description": "0=未读，1=已读" },
+          "createTime": { "type": "string", "format": "date-time" },
+          "readTime": { "type": "string", "format": "date-time", "nullable": true }
+        }
+      },
+      "SysNoticeSendDTO": {
+        "type": "object",
+        "required": ["title", "summary", "content"],
+        "properties": {
+          "title": { "type": "string", "description": "消息标题", "maxLength": 150 },
+          "summary": { "type": "string", "description": "列表页单行摘要", "maxLength": 200 },
+          "content": { "type": "string", "description": "完整正文" }
+        }
+      }
+    }
+  }
+}

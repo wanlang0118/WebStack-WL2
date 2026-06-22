@@ -1,0 +1,288 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "评论管理",
+    "description": "WebStack 网站评论管理模块 API（管理端，需登录 Bearer Token）",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8180",
+      "description": "本地开发环境"
+    }
+  ],
+  "tags": [
+    {
+      "name": "评论管理",
+      "description": "site_comment 表 CRUD + 审核 + 回复"
+    }
+  ],
+  "paths": {
+    "/api/site/comment/page": {
+      "get": {
+        "tags": ["评论管理"],
+        "summary": "分页查询评论（树形）",
+        "description": "仅分页查询顶级评论（parent_id IS NULL），子评论挂载在 children 字段中",
+        "operationId": "getCommentPage",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "page", "in": "query", "schema": { "type": "integer", "default": 1 }, "description": "页码" },
+          { "name": "size", "in": "query", "schema": { "type": "integer", "default": 10 }, "description": "每页条数" },
+          { "name": "siteId", "in": "query", "schema": { "type": "integer" }, "description": "按网站 ID 过滤" },
+          { "name": "status", "in": "query", "schema": { "type": "integer", "enum": [0, 1] }, "description": "审核状态：0=待审核，1=已通过" },
+          { "name": "keyword", "in": "query", "schema": { "type": "string" }, "description": "模糊搜索评论内容或游客昵称" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultPageSiteCommentVO" },
+                "example": {
+                  "code": 200,
+                  "message": "操作成功",
+                  "data": {
+                    "records": [
+                      {
+                        "id": 1,
+                        "siteId": 1,
+                        "siteTitle": "示例网站",
+                        "userId": null,
+                        "username": null,
+                        "guestName": "游客A",
+                        "guestEmail": "guest@example.com",
+                        "guestUrl": null,
+                        "content": "这是一条顶级评论",
+                        "parentId": null,
+                        "status": 0,
+                        "createTime": "2026-06-09 10:00:00",
+                        "children": [
+                          {
+                            "id": 2,
+                            "siteId": 1,
+                            "siteTitle": "示例网站",
+                            "userId": 1,
+                            "username": "admin",
+                            "guestName": null,
+                            "content": "管理员回复",
+                            "parentId": 1,
+                            "status": 1,
+                            "createTime": "2026-06-09 10:05:00",
+                            "children": null
+                          }
+                        ]
+                      }
+                    ],
+                    "total": 1,
+                    "size": 10,
+                    "current": 1,
+                    "pages": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/site/comment/status/{id}": {
+      "put": {
+        "tags": ["评论管理"],
+        "summary": "审核状态切换",
+        "operationId": "updateCommentStatus",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer", "format": "int64" }, "description": "评论 ID" },
+          { "name": "status", "in": "query", "required": true, "schema": { "type": "integer", "enum": [0, 1] }, "description": "0=待审核，1=已通过" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/site/comment/reply": {
+      "post": {
+        "tags": ["评论管理"],
+        "summary": "管理员回复评论",
+        "description": "创建一条子评论，status 自动设为 1（已通过）",
+        "operationId": "replyComment",
+        "security": [{ "BearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/SiteCommentReplyRequest" },
+              "example": {
+                "siteId": 1,
+                "parentId": 1,
+                "content": "感谢您的评论，已收到。",
+                "userId": null
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/site/comment/content/{id}": {
+      "put": {
+        "tags": ["评论管理"],
+        "summary": "编辑评论内容",
+        "operationId": "updateCommentContent",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer", "format": "int64" }, "description": "评论 ID" },
+          { "name": "content", "in": "query", "required": true, "schema": { "type": "string" }, "description": "新的评论内容" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/site/comment/record/{id}": {
+      "delete": {
+        "tags": ["评论管理"],
+        "summary": "删除单条评论",
+        "description": "删除指定评论，子评论由数据库外键 ON DELETE CASCADE 级联删除",
+        "operationId": "deleteComment",
+        "security": [{ "BearerAuth": [] }],
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer", "format": "int64" }, "description": "评论 ID" }
+        ],
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/site/comment/batch-delete": {
+      "post": {
+        "tags": ["评论管理"],
+        "summary": "批量删除评论",
+        "operationId": "batchDeleteComment",
+        "security": [{ "BearerAuth": [] }],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": { "type": "integer", "format": "int64" }
+              },
+              "example": [1, 2, 3]
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ResultVoid" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT",
+        "description": "先调用 POST /api/auth/login 获取 token，填入 Authorization: Bearer {token}"
+      }
+    },
+    "schemas": {
+      "ResultVoid": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "integer", "example": 200 },
+          "message": { "type": "string", "example": "操作成功" },
+          "data": { "nullable": true }
+        }
+      },
+      "ResultPageSiteCommentVO": {
+        "type": "object",
+        "properties": {
+          "code": { "type": "integer", "example": 200 },
+          "message": { "type": "string", "example": "操作成功" },
+          "data": { "$ref": "#/components/schemas/PageSiteCommentVO" }
+        }
+      },
+      "PageSiteCommentVO": {
+        "type": "object",
+        "properties": {
+          "records": { "type": "array", "items": { "$ref": "#/components/schemas/SiteCommentVO" } },
+          "total": { "type": "integer", "format": "int64" },
+          "size": { "type": "integer", "format": "int64" },
+          "current": { "type": "integer", "format": "int64" },
+          "pages": { "type": "integer", "format": "int64" }
+        }
+      },
+      "SiteCommentVO": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer", "format": "int64" },
+          "siteId": { "type": "integer" },
+          "siteTitle": { "type": "string" },
+          "userId": { "type": "integer", "nullable": true },
+          "username": { "type": "string", "nullable": true },
+          "guestName": { "type": "string", "nullable": true },
+          "guestEmail": { "type": "string", "nullable": true },
+          "guestUrl": { "type": "string", "nullable": true },
+          "content": { "type": "string" },
+          "parentId": { "type": "integer", "format": "int64", "nullable": true },
+          "status": { "type": "integer", "description": "0=待审核，1=已通过" },
+          "createTime": { "type": "string", "format": "date-time" },
+          "children": {
+            "type": "array",
+            "nullable": true,
+            "items": { "$ref": "#/components/schemas/SiteCommentVO" }
+          }
+        }
+      },
+      "SiteCommentReplyRequest": {
+        "type": "object",
+        "required": ["siteId", "parentId", "content"],
+        "properties": {
+          "siteId": { "type": "integer", "description": "关联网站 ID" },
+          "parentId": { "type": "integer", "format": "int64", "description": "被回复的评论 ID" },
+          "content": { "type": "string", "description": "回复内容" },
+          "userId": { "type": "integer", "nullable": true, "description": "登录用户 ID，管理员回复可为 null" }
+        }
+      }
+    }
+  }
+}

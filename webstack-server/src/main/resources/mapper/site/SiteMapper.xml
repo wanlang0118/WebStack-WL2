@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="webstack.module.site.mapper.SiteMapper">
+
+    <select id="selectSitePage" resultType="webstack.module.site.entity.Site">
+        SELECT s.* FROM site s
+        LEFT JOIN category c ON s.category_id = c.id
+        <where>
+            <if test="dto.title != null and dto.title != ''">
+                AND s.title LIKE CONCAT('%', #{dto.title}, '%')
+            </if>
+            <if test="dto.categoryId != null">
+                AND (s.category_id = #{dto.categoryId} OR s.category_id IN (SELECT id FROM category WHERE parent_id = #{dto.categoryId}))
+            </if>
+            <if test="dto.visible != null">
+                AND s.visible = #{dto.visible}
+            </if>
+            <if test="dto.isRecommended != null">
+                AND s.is_recommended = #{dto.isRecommended}
+            </if>
+        </where>
+        <choose>
+            <when test="dto.sortField == 'title' and dto.sortOrder == 'ascend'">
+                ORDER BY s.title ASC
+            </when>
+            <when test="dto.sortField == 'title' and dto.sortOrder == 'descend'">
+                ORDER BY s.title DESC
+            </when>
+            <when test="dto.sortField == 'categoryId' and dto.sortOrder == 'ascend'">
+                ORDER BY c.title ASC
+            </when>
+            <when test="dto.sortField == 'categoryId' and dto.sortOrder == 'descend'">
+                ORDER BY c.title DESC
+            </when>
+            <when test="dto.sortField == 'likeCount' and dto.sortOrder == 'ascend'">
+                ORDER BY s.like_count ASC
+            </when>
+            <when test="dto.sortField == 'likeCount' and dto.sortOrder == 'descend'">
+                ORDER BY s.like_count DESC
+            </when>
+            <when test="dto.sortField == 'commentCount' and dto.sortOrder == 'ascend'">
+                ORDER BY s.comment_count ASC
+            </when>
+            <when test="dto.sortField == 'commentCount' and dto.sortOrder == 'descend'">
+                ORDER BY s.comment_count DESC
+            </when>
+            <when test="dto.sortField == 'clickCount' and dto.sortOrder == 'ascend'">
+                ORDER BY s.click_count ASC
+            </when>
+            <when test="dto.sortField == 'clickCount' and dto.sortOrder == 'descend'">
+                ORDER BY s.click_count DESC
+            </when>
+            <otherwise>
+                ORDER BY s.sort DESC, s.create_time DESC
+            </otherwise>
+        </choose>
+    </select>
+
+</mapper>

@@ -1,0 +1,33 @@
+# === Java ===
+webstack-server/target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_*.log
+replay_*.log
+*.hprof
+
+# === Node ===
+node_modules/
+dist/
+*.tsbuildinfo
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.mimocode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env ===
+.env.local
+.env.*.local
+*.local.yml

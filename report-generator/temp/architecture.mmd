@@ -1,0 +1,32 @@
+
+graph TB
+    subgraph 表现层
+        A1[用户前端<br/>Vue3 + Vite]
+        A2[管理后台<br/>Vue3 + naive-ui]
+    end
+    
+    subgraph 业务逻辑层
+        B1[Controller层<br/>RESTful API]
+        B2[Service层<br/>业务逻辑]
+        B3[Mapper层<br/>数据访问]
+    end
+    
+    subgraph 数据访问层
+        C1[MyBatis-Plus<br/>ORM框架]
+        C2[MySQL数据库<br/>数据存储]
+    end
+    
+    subgraph 外部服务
+        D1[JWT认证<br/>身份验证]
+        D2[DeepSeek API<br/>AI服务]
+    end
+    
+    A1 --> B1
+    A2 --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> C1
+    C1 --> C2
+    B2 --> D1
+    B2 --> D2
+  

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="webstack.module.sysNotice.mapper.SysNoticeMapper">
+
+    <select id="selectNoticePage" resultType="webstack.module.sysNotice.vo.SysNoticeVO">
+        SELECT
+            n.id,
+            n.sender_id,
+            n.sender_name,
+            n.receiver_id,
+            COALESCE(u.name, u.username) AS receiver_name,
+            n.notice_type,
+            n.source_site_id,
+            s.title AS site_title,
+            n.source_comment_id,
+            n.title,
+            n.summary,
+            n.content,
+            n.is_read,
+            n.create_time,
+            n.read_time
+        FROM sys_notice n
+        LEFT JOIN sys_user u ON n.receiver_id = u.id
+        LEFT JOIN site s ON n.source_site_id = s.id
+        <where>
+            <if test="dto.receiverId != null">
+                AND n.receiver_id = #{dto.receiverId}
+            </if>
+            <if test="dto.noticeType != null">
+                AND n.notice_type = #{dto.noticeType}
+            </if>
+            <if test="dto.isRead != null">
+                AND n.is_read = #{dto.isRead}
+            </if>
+            <if test="dto.keyword != null and dto.keyword != ''">
+                AND (n.title LIKE CONCAT('%', #{dto.keyword}, '%')
+                     OR n.summary LIKE CONCAT('%', #{dto.keyword}, '%'))
+            </if>
+        </where>
+        ORDER BY n.create_time DESC
+    </select>
+
+</mapper>

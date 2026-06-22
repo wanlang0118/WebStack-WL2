@@ -1,0 +1,2586 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - link "W WebStack" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: W
+        - generic [ref=e8]: WebStack
+      - button "收起侧边栏" [ref=e9] [cursor=pointer]:
+        - generic [ref=e10]: 
+    - navigation "分类导航" [ref=e11]:
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - button " AI写作工具 " [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: 
+            - generic [ref=e16]: AI写作工具
+            - generic [ref=e17]: 
+        - listitem [ref=e18]:
+          - button " AI音频工具" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+            - generic [ref=e21]: AI音频工具
+        - listitem [ref=e22]:
+          - button "图 AI图像工具" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 图
+            - generic [ref=e25]: AI图像工具
+        - listitem [ref=e26]:
+          - button "设 AI设计工具" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 设
+            - generic [ref=e29]: AI设计工具
+        - listitem [ref=e30]:
+          - button "视 AI视频工具" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 视
+            - generic [ref=e33]: AI视频工具
+        - listitem [ref=e34]:
+          - button "办 AI办公工具" [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: 办
+            - generic [ref=e37]: AI办公工具
+        - listitem [ref=e38]:
+          - button "聊 AI聊天助手" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: 聊
+            - generic [ref=e41]: AI聊天助手
+        - listitem [ref=e42]:
+          - button "训 AI训练模型" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]: 训
+            - generic [ref=e45]: AI训练模型
+        - listitem [ref=e46]:
+          - button "开 AI开发平台" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: 开
+            - generic [ref=e49]: AI开发平台
+        - listitem [ref=e50]:
+          - button "编 AI编程工具" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 编
+            - generic [ref=e53]: AI编程工具
+        - listitem [ref=e54]:
+          - button "搜 AI搜索引擎" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: 搜
+            - generic [ref=e57]: AI搜索引擎
+        - listitem [ref=e58]:
+          - button "学 AI学习网站" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: 学
+            - generic [ref=e61]: AI学习网站
+        - listitem [ref=e62]:
+          - button "模 AI模型评测" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: 模
+            - generic [ref=e65]: AI模型评测
+        - listitem [ref=e66]:
+          - button "内 AI内容检测" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]: 内
+            - generic [ref=e69]: AI内容检测
+        - listitem [ref=e70]:
+          - button "提 AI提示指令" [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: 提
+            - generic [ref=e73]: AI提示指令
+        - listitem [ref=e74]:
+          - button "副 AI副业工具" [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 副
+            - generic [ref=e77]: AI副业工具
+  - generic [ref=e78]:
+    - banner [ref=e79]:
+      - navigation [ref=e81]:
+        - link "首页" [ref=e82] [cursor=pointer]:
+          - /url: /
+    - main [ref=e83]:
+      - generic [ref=e85]:
+        - heading "WebStack-WL" [level=1] [ref=e86]
+        - paragraph [ref=e87]: 收录优质网站与工具，助你高效发现好资源
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - button "站内" [ref=e91] [cursor=pointer]
+            - button "百度" [ref=e92] [cursor=pointer]
+            - button "Google" [ref=e93] [cursor=pointer]
+            - button "Bing" [ref=e94] [cursor=pointer]
+            - button "GitHub" [ref=e95] [cursor=pointer]
+          - generic [ref=e96]:
+            - generic [ref=e98]: 
+            - textbox "搜索站内网站..." [ref=e99]
+            - generic [ref=e101]: /
+            - text: 
+            - button "执行搜索" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: 
+        - generic [ref=e104]:
+          - link "淘宝" [ref=e105] [cursor=pointer]:
+            - /url: https://www.taobao.com
+          - link "京东" [ref=e106] [cursor=pointer]:
+            - /url: https://www.jd.com
+          - link "知乎" [ref=e107] [cursor=pointer]:
+            - /url: https://www.zhihu.com
+          - link "GitHub" [ref=e108] [cursor=pointer]:
+            - /url: https://github.com
+          - link "百度" [ref=e109] [cursor=pointer]:
+            - /url: https://www.baidu.com
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - heading " AI写作工具" [level=2] [ref=e113]:
+            - generic [ref=e114]: 
+            - text: AI写作工具
+          - generic [ref=e115]:
+            - button "AI写作工具" [ref=e116] [cursor=pointer]
+            - button "AI智能体" [ref=e117] [cursor=pointer]
+          - generic [ref=e118]:
+            - link "MiniMax Hub MiniMax Hub MiniMax 推出的桌面端 AI 创意工作站" [ref=e119] [cursor=pointer]:
+              - /url: /site/221
+              - img "MiniMax Hub" [ref=e121]
+              - generic [ref=e122]:
+                - heading "MiniMax Hub" [level=3] [ref=e123]
+                - paragraph [ref=e124]: MiniMax 推出的桌面端 AI 创意工作站
+            - link "Lovart Lovart LiblibAI推出的全球首个设计智能体" [ref=e125] [cursor=pointer]:
+              - /url: /site/220
+              - img "Lovart" [ref=e127]
+              - generic [ref=e128]:
+                - heading "Lovart" [level=3] [ref=e129]
+                - paragraph [ref=e130]: LiblibAI推出的全球首个设计智能体
+            - link "OiiOii OiiOii 全球首个专业动画创作Agent" [ref=e131] [cursor=pointer]:
+              - /url: /site/219
+              - img "OiiOii" [ref=e133]
+              - generic [ref=e134]:
+                - heading "OiiOii" [level=3] [ref=e135]
+                - paragraph [ref=e136]: 全球首个专业动画创作Agent
+            - link "Genspark Genspark 通用AI智能体，您的一站式AI工作空间" [ref=e137] [cursor=pointer]:
+              - /url: /site/218
+              - img "Genspark" [ref=e139]
+              - generic [ref=e140]:
+                - heading "Genspark" [level=3] [ref=e141]
+                - paragraph [ref=e142]: 通用AI智能体，您的一站式AI工作空间
+            - link "happycapy happycapy Trickle 团队推出的云端 AI Agent 计算机" [ref=e143] [cursor=pointer]:
+              - /url: /site/217
+              - img "happycapy" [ref=e145]
+              - generic [ref=e146]:
+                - heading "happycapy" [level=3] [ref=e147]
+                - paragraph [ref=e148]: Trickle 团队推出的云端 AI Agent 计算机
+            - link "QClaw QClaw 腾讯电脑管家团队基于 OpenClaw 打造的本地 AI 助手" [ref=e149] [cursor=pointer]:
+              - /url: /site/222
+              - img "QClaw" [ref=e151]
+              - generic [ref=e152]:
+                - heading "QClaw" [level=3] [ref=e153]
+                - paragraph [ref=e154]: 腾讯电脑管家团队基于 OpenClaw 打造的本地 AI 助手
+            - link "悟空 悟空 阿里推出的全球首个企业级AI原生工作平台" [ref=e155] [cursor=pointer]:
+              - /url: /site/215
+              - img "悟空" [ref=e157]
+              - generic [ref=e158]:
+                - heading "悟空" [level=3] [ref=e159]
+                - paragraph [ref=e160]: 阿里推出的全球首个企业级AI原生工作平台
+            - link "Hermes Agent Hermes Agent Nous Research 开源的自主 AI Agent 框架" [ref=e161] [cursor=pointer]:
+              - /url: /site/214
+              - img "Hermes Agent" [ref=e163]
+              - generic [ref=e164]:
+                - heading "Hermes Agent" [level=3] [ref=e165]
+                - paragraph [ref=e166]: Nous Research 开源的自主 AI Agent 框架
+            - link "腾讯Marvis 腾讯Marvis 腾讯应用宝团队推出的操作系统级 AI 助手" [ref=e167] [cursor=pointer]:
+              - /url: /site/213
+              - img "腾讯Marvis" [ref=e169]
+              - generic [ref=e170]:
+                - heading "腾讯Marvis" [level=3] [ref=e171]
+                - paragraph [ref=e172]: 腾讯应用宝团队推出的操作系统级 AI 助手
+            - link "Moxt Moxt AI 原生工作空间" [ref=e173] [cursor=pointer]:
+              - /url: /site/216
+              - img "Moxt" [ref=e175]
+              - generic [ref=e176]:
+                - heading "Moxt" [level=3] [ref=e177]
+                - paragraph [ref=e178]: AI 原生工作空间
+            - link "Manus Manus 蝴蝶效应公司推出的首款自主通用AI Agent" [ref=e179] [cursor=pointer]:
+              - /url: /site/210
+              - img "Manus" [ref=e181]
+              - generic [ref=e182]:
+                - heading "Manus" [level=3] [ref=e183]
+                - paragraph [ref=e184]: 蝴蝶效应公司推出的首款自主通用AI Agent
+            - link "Mavis Mavis MiniMax Agent 推出的多 Agent 协作模式" [ref=e185] [cursor=pointer]:
+              - /url: /site/212
+              - img "Mavis" [ref=e187]
+              - generic [ref=e188]:
+                - heading "Mavis" [level=3] [ref=e189]
+                - paragraph [ref=e190]: MiniMax Agent 推出的多 Agent 协作模式
+            - link "AutoClaw AutoClaw 智谱推出的国内首个一键安装本地版OpenClaw" [ref=e191] [cursor=pointer]:
+              - /url: /site/211
+              - img "AutoClaw" [ref=e193]
+              - generic [ref=e194]:
+                - heading "AutoClaw" [level=3] [ref=e195]
+                - paragraph [ref=e196]: 智谱推出的国内首个一键安装本地版OpenClaw
+            - link "WorkBuddy WorkBuddy 腾讯云推出的AI原生桌面智能体工作台" [ref=e197] [cursor=pointer]:
+              - /url: /site/209
+              - img "WorkBuddy" [ref=e199]
+              - generic [ref=e200]:
+                - heading "WorkBuddy" [level=3] [ref=e201]
+                - paragraph [ref=e202]: 腾讯云推出的AI原生桌面智能体工作台
+            - link "OpenClaw OpenClaw 开源免费的个人 AI 助手" [ref=e203] [cursor=pointer]:
+              - /url: /site/207
+              - img "OpenClaw" [ref=e205]
+              - generic [ref=e206]:
+                - heading "OpenClaw" [level=3] [ref=e207]
+                - paragraph [ref=e208]: 开源免费的个人 AI 助手
+            - link "讯飞星辰Agent 讯飞星辰Agent 科大讯飞推出的AI智能体开发平台" [ref=e209] [cursor=pointer]:
+              - /url: /site/206
+              - img "讯飞星辰Agent" [ref=e211]
+              - generic [ref=e212]:
+                - heading "讯飞星辰Agent" [level=3] [ref=e213]
+                - paragraph [ref=e214]: 科大讯飞推出的AI智能体开发平台
+            - link "QoderWork QoderWork 阿里Qoder团队推出的桌面端AI智能体" [ref=e215] [cursor=pointer]:
+              - /url: /site/205
+              - img "QoderWork" [ref=e217]
+              - generic [ref=e218]:
+                - heading "QoderWork" [level=3] [ref=e219]
+                - paragraph [ref=e220]: 阿里Qoder团队推出的桌面端AI智能体
+            - link "堆友Agent 堆友Agent 堆友推出的 AI 设计智能体" [ref=e221] [cursor=pointer]:
+              - /url: /site/203
+              - img "堆友Agent" [ref=e223]
+              - generic [ref=e224]:
+                - heading "堆友Agent" [level=3] [ref=e225]
+                - paragraph [ref=e226]: 堆友推出的 AI 设计智能体
+            - link "AstronClaw AstronClaw 科大讯飞推出的云端部署OpenClaw" [ref=e227] [cursor=pointer]:
+              - /url: /site/202
+              - img "AstronClaw" [ref=e229]
+              - generic [ref=e230]:
+                - heading "AstronClaw" [level=3] [ref=e231]
+                - paragraph [ref=e232]: 科大讯飞推出的云端部署OpenClaw
+            - link "Tabbit Tabbit 美团光年之外推出的AI原生浏览器" [ref=e233] [cursor=pointer]:
+              - /url: /site/201
+              - img "Tabbit" [ref=e235]
+              - generic [ref=e236]:
+                - heading "Tabbit" [level=3] [ref=e237]
+                - paragraph [ref=e238]: 美团光年之外推出的AI原生浏览器
+            - link "DuMate DuMate 百度推出的桌面端 AI 智能体" [ref=e239] [cursor=pointer]:
+              - /url: /site/200
+              - img "DuMate" [ref=e241]
+              - generic [ref=e242]:
+                - heading "DuMate" [level=3] [ref=e243]
+                - paragraph [ref=e244]: 百度推出的桌面端 AI 智能体
+            - link "响指HaiSnap 响指HaiSnap 面向工作与学习场景的通用 AI Agent 平台" [ref=e245] [cursor=pointer]:
+              - /url: /site/199
+              - img "响指HaiSnap" [ref=e247]
+              - generic [ref=e248]:
+                - heading "响指HaiSnap" [level=3] [ref=e249]
+                - paragraph [ref=e250]: 面向工作与学习场景的通用 AI Agent 平台
+            - link "ArkClaw ArkClaw 火山引擎推出的云端托管版OpenClaw服务" [ref=e251] [cursor=pointer]:
+              - /url: /site/198
+              - img "ArkClaw" [ref=e253]
+              - generic [ref=e254]:
+                - heading "ArkClaw" [level=3] [ref=e255]
+                - paragraph [ref=e256]: 火山引擎推出的云端托管版OpenClaw服务
+            - link "爱派AiPy 爱派AiPy 本地Manus、国内能用、内网能用，开源免费" [ref=e257] [cursor=pointer]:
+              - /url: /site/197
+              - img "爱派AiPy" [ref=e259]
+              - generic [ref=e260]:
+                - heading "爱派AiPy" [level=3] [ref=e261]
+                - paragraph [ref=e262]: 本地Manus、国内能用、内网能用，开源免费
+            - link "Atoms Atoms 第一支自动构建真实业务的 AI 团队" [ref=e263] [cursor=pointer]:
+              - /url: /site/196
+              - img "Atoms" [ref=e265]
+              - generic [ref=e266]:
+                - heading "Atoms" [level=3] [ref=e267]
+                - paragraph [ref=e268]: 第一支自动构建真实业务的 AI 团队
+            - link "Flowith Flowith 一站式用GPT-5.5、Claude-4.7" [ref=e269] [cursor=pointer]:
+              - /url: /site/174
+              - img "Flowith" [ref=e271]
+              - generic [ref=e272]:
+                - heading "Flowith" [level=3] [ref=e273]
+                - paragraph [ref=e274]: 一站式用GPT-5.5、Claude-4.7
+            - link "Seko Seko 首个创编一体的AI视频创作Agent" [ref=e275] [cursor=pointer]:
+              - /url: /site/119
+              - img "Seko" [ref=e277]
+              - generic [ref=e278]:
+                - heading "Seko" [level=3] [ref=e279]
+                - paragraph [ref=e280]: 首个创编一体的AI视频创作Agent
+            - link "材料星AI 材料星AI 专为秘书工作设计的AI写作工具" [ref=e281] [cursor=pointer]:
+              - /url: /site/86
+              - img "材料星AI" [ref=e283]
+              - generic [ref=e284]:
+                - heading "材料星AI" [level=3] [ref=e285]
+                - paragraph [ref=e286]: 专为秘书工作设计的AI写作工具
+            - link "超级小说家 超级小说家 专为网文作家和短剧编剧打造的AI创作助手" [ref=e287] [cursor=pointer]:
+              - /url: /site/85
+              - img "超级小说家" [ref=e289]
+              - generic [ref=e290]:
+                - heading "超级小说家" [level=3] [ref=e291]
+                - paragraph [ref=e292]: 专为网文作家和短剧编剧打造的AI创作助手
+            - link "创飞写作 创飞写作 新一代智能AIGC写作调度平台" [ref=e293] [cursor=pointer]:
+              - /url: /site/84
+              - img "创飞写作" [ref=e295]
+              - generic [ref=e296]:
+                - heading "创飞写作" [level=3] [ref=e297]
+                - paragraph [ref=e298]: 新一代智能AIGC写作调度平台
+            - link "落笔AI写作 落笔AI写作 专注于小说网文创作的AI写作工具" [ref=e299] [cursor=pointer]:
+              - /url: /site/83
+              - img "落笔AI写作" [ref=e301]
+              - generic [ref=e302]:
+                - heading "落笔AI写作" [level=3] [ref=e303]
+                - paragraph [ref=e304]: 专注于小说网文创作的AI写作工具
+            - link "小鱼AI写作 小鱼AI写作 一站式AI写作平台，一键生成高质量原创内容" [ref=e305] [cursor=pointer]:
+              - /url: /site/82
+              - img "小鱼AI写作" [ref=e307]
+              - generic [ref=e308]:
+                - heading "小鱼AI写作" [level=3] [ref=e309]
+                - paragraph [ref=e310]: 一站式AI写作平台，一键生成高质量原创内容
+            - link "Loomi Loomi 创作版Claude Code，AI原生写作工具" [ref=e311] [cursor=pointer]:
+              - /url: /site/81
+              - img "Loomi" [ref=e313]
+              - generic [ref=e314]:
+                - heading "Loomi" [level=3] [ref=e315]
+                - paragraph [ref=e316]: 创作版Claude Code，AI原生写作工具
+            - link "FeelFish FeelFish 专为小说创作者打造的 AI 写作 PC 客户端软件" [ref=e317] [cursor=pointer]:
+              - /url: /site/80
+              - img "FeelFish" [ref=e319]
+              - generic [ref=e320]:
+                - heading "FeelFish" [level=3] [ref=e321]
+                - paragraph [ref=e322]: 专为小说创作者打造的 AI 写作 PC 客户端软件
+            - link "丹青妙笔 丹青妙笔 专为体制内打造的AI公文写作工具" [ref=e323] [cursor=pointer]:
+              - /url: /site/79
+              - img "丹青妙笔" [ref=e325]
+              - generic [ref=e326]:
+                - heading "丹青妙笔" [level=3] [ref=e327]
+                - paragraph [ref=e328]: 专为体制内打造的AI公文写作工具
+            - link "新华妙笔 新华妙笔 新华社推出的AI公文写作平台" [ref=e329] [cursor=pointer]:
+              - /url: /site/78
+              - img "新华妙笔" [ref=e331]
+              - generic [ref=e332]:
+                - heading "新华妙笔" [level=3] [ref=e333]
+                - paragraph [ref=e334]: 新华社推出的AI公文写作平台
+            - link "墨问 墨问 专为创作者设计的AI笔记工具" [ref=e335] [cursor=pointer]:
+              - /url: /site/77
+              - img "墨问" [ref=e337]
+              - generic [ref=e338]:
+                - heading "墨问" [level=3] [ref=e339]
+                - paragraph [ref=e340]: 专为创作者设计的AI笔记工具
+            - link "万能小in 万能小in 3分钟4万字150+应用，只需标题，快速生成毕业论文" [ref=e341] [cursor=pointer]:
+              - /url: /site/76
+              - img "万能小in" [ref=e343]
+              - generic [ref=e344]:
+                - heading "万能小in" [level=3] [ref=e345]
+                - paragraph [ref=e346]: 3分钟4万字150+应用，只需标题，快速生成毕业论文
+            - link "YouMind YouMind 专注提升创作效率和信息整合的AI原生工具" [ref=e347] [cursor=pointer]:
+              - /url: /site/75
+              - img "YouMind" [ref=e349]
+              - generic [ref=e350]:
+                - heading "YouMind" [level=3] [ref=e351]
+                - paragraph [ref=e352]: 专注提升创作效率和信息整合的AI原生工具
+            - link "光速写作 光速写作 AI写作、PPT生成工具，单篇最长15000字" [ref=e353] [cursor=pointer]:
+              - /url: /site/74
+              - img "光速写作" [ref=e355]
+              - generic [ref=e356]:
+                - heading "光速写作" [level=3] [ref=e357]
+                - paragraph [ref=e358]: AI写作、PPT生成工具，单篇最长15000字
+            - link "01Agent 01Agent AI图文创作工具，支持生成、排版、编辑、发布" [ref=e359] [cursor=pointer]:
+              - /url: /site/72
+              - img "01Agent" [ref=e361]
+              - generic [ref=e362]:
+                - heading "01Agent" [level=3] [ref=e363]
+                - paragraph [ref=e364]: AI图文创作工具，支持生成、排版、编辑、发布
+            - link "茅茅虫 茅茅虫 一站式AI论文写作助手" [ref=e365] [cursor=pointer]:
+              - /url: /site/71
+              - img "茅茅虫" [ref=e367]
+              - generic [ref=e368]:
+                - heading "茅茅虫" [level=3] [ref=e369]
+                - paragraph [ref=e370]: 一站式AI论文写作助手
+            - link "维普科创助手 维普科创助手 维普的一站式AI科研服务平台" [ref=e371] [cursor=pointer]:
+              - /url: /site/70
+              - img "维普科创助手" [ref=e373]
+              - generic [ref=e374]:
+                - heading "维普科创助手" [level=3] [ref=e375]
+                - paragraph [ref=e376]: 维普的一站式AI科研服务平台
+            - link "66AI论文 66AI论文 高质量、低查重、低AIGC率的AI论文写作工具" [ref=e377] [cursor=pointer]:
+              - /url: /site/69
+              - img "66AI论文" [ref=e379]
+              - generic [ref=e380]:
+                - heading "66AI论文" [level=3] [ref=e381]
+                - paragraph [ref=e382]: 高质量、低查重、低AIGC率的AI论文写作工具
+            - link "千笔AI论文 千笔AI论文 全网首家论文无限改稿平台" [ref=e383] [cursor=pointer]:
+              - /url: /site/68
+              - img "千笔AI论文" [ref=e385]
+              - generic [ref=e386]:
+                - heading "千笔AI论文" [level=3] [ref=e387]
+                - paragraph [ref=e388]: 全网首家论文无限改稿平台
+            - link "GetDraft GetDraft 得到推出的多AI专家协作AI写作工具" [ref=e389] [cursor=pointer]:
+              - /url: /site/73
+              - img "GetDraft" [ref=e391]
+              - generic [ref=e392]:
+                - heading "GetDraft" [level=3] [ref=e393]
+                - paragraph [ref=e394]: 得到推出的多AI专家协作AI写作工具
+            - link "稿易AI论文 稿易AI论文 AI论文写作助手，免费生成2000字大纲" [ref=e395] [cursor=pointer]:
+              - /url: /site/67
+              - img "稿易AI论文" [ref=e397]
+              - generic [ref=e398]:
+                - heading "稿易AI论文" [level=3] [ref=e399]
+                - paragraph [ref=e400]: AI论文写作助手，免费生成2000字大纲
+            - link "蛙蛙写作 蛙蛙写作 AI小说和内容创作工具" [ref=e401] [cursor=pointer]:
+              - /url: /site/61
+              - img "蛙蛙写作" [ref=e403]
+              - generic [ref=e404]:
+                - heading "蛙蛙写作" [level=3] [ref=e405]
+                - paragraph [ref=e406]: AI小说和内容创作工具
+            - link "笔目鱼 笔目鱼 专业英文论文写作器" [ref=e407] [cursor=pointer]:
+              - /url: /site/66
+              - img "笔目鱼" [ref=e409]
+              - generic [ref=e410]:
+                - heading "笔目鱼" [level=3] [ref=e411]
+                - paragraph [ref=e412]: 专业英文论文写作器
+            - link "沁言学术 沁言学术 AI科研写作平台，一站式文献管理" [ref=e413] [cursor=pointer]:
+              - /url: /site/65
+              - img "沁言学术" [ref=e415]
+              - generic [ref=e416]:
+                - heading "沁言学术" [level=3] [ref=e417]
+                - paragraph [ref=e418]: AI科研写作平台，一站式文献管理
+            - link "稿定AI文案 稿定AI文案 小红书、公众号、短视频AI文案生成工具" [ref=e419] [cursor=pointer]:
+              - /url: /site/64
+              - img "稿定AI文案" [ref=e421]
+              - generic [ref=e422]:
+                - heading "稿定AI文案" [level=3] [ref=e423]
+                - paragraph [ref=e424]: 小红书、公众号、短视频AI文案生成工具
+            - link "笔灵AI小说 笔灵AI小说 AI一键写全篇+爆文拆解，搞定大纲、素材，新手写作过稿神器！" [ref=e425] [cursor=pointer]:
+              - /url: /site/63
+              - img "笔灵AI小说" [ref=e427]
+              - generic [ref=e428]:
+                - heading "笔灵AI小说" [level=3] [ref=e429]
+                - paragraph [ref=e430]: AI一键写全篇+爆文拆解，搞定大纲、素材，新手写作过稿神器！
+            - link "讯飞绘文 讯飞绘文 AI批量原创，多平台矩阵号管理" [ref=e431] [cursor=pointer]:
+              - /url: /site/62
+              - img "讯飞绘文" [ref=e433]
+              - generic [ref=e434]:
+                - heading "讯飞绘文" [level=3] [ref=e435]
+                - paragraph [ref=e436]: AI批量原创，多平台矩阵号管理
+        - generic [ref=e437]:
+          - heading " AI音频工具" [level=2] [ref=e439]:
+            - generic [ref=e440]: 
+            - text: AI音频工具
+          - generic [ref=e441]:
+            - link "Tunee Tunee 首个对话式音乐创作AI智能体" [ref=e442] [cursor=pointer]:
+              - /url: /site/307
+              - img "Tunee" [ref=e444]
+              - generic [ref=e445]:
+                - heading "Tunee" [level=3] [ref=e446]
+                - paragraph [ref=e447]: 首个对话式音乐创作AI智能体
+            - link "讯飞听见 讯飞听见 科大讯飞推出的在线AI语音转文字工具" [ref=e448] [cursor=pointer]:
+              - /url: /site/308
+              - img "讯飞听见" [ref=e450]
+              - generic [ref=e451]:
+                - heading "讯飞听见" [level=3] [ref=e452]
+                - paragraph [ref=e453]: 科大讯飞推出的在线AI语音转文字工具
+            - link "NotebookLM NotebookLM 谷歌推出的AI笔记应用，5分钟生成一段对话播客" [ref=e454] [cursor=pointer]:
+              - /url: /site/309
+              - img "NotebookLM" [ref=e456]
+              - generic [ref=e457]:
+                - heading "NotebookLM" [level=3] [ref=e458]
+                - paragraph [ref=e459]: 谷歌推出的AI笔记应用，5分钟生成一段对话播客
+            - link "Flow Music Flow Music Google Labs推出的AI音乐创作平台" [ref=e460] [cursor=pointer]:
+              - /url: /site/310
+              - img "Flow Music" [ref=e462]
+              - generic [ref=e463]:
+                - heading "Flow Music" [level=3] [ref=e464]
+                - paragraph [ref=e465]: Google Labs推出的AI音乐创作平台
+            - link "Vemus未音 Vemus未音 腾讯音乐旗下首款一站式AI音乐创作工具" [ref=e466] [cursor=pointer]:
+              - /url: /site/311
+              - img "Vemus未音" [ref=e468]
+              - generic [ref=e469]:
+                - heading "Vemus未音" [level=3] [ref=e470]
+                - paragraph [ref=e471]: 腾讯音乐旗下首款一站式AI音乐创作工具
+            - link "海绵音乐 海绵音乐 字节跳动推出的免费AI音乐创作和发现平台" [ref=e472] [cursor=pointer]:
+              - /url: /site/312
+              - img "海绵音乐" [ref=e474]
+              - generic [ref=e475]:
+                - heading "海绵音乐" [level=3] [ref=e476]
+                - paragraph [ref=e477]: 字节跳动推出的免费AI音乐创作和发现平台
+            - link "Nafy AI Nafy AI 在线 AI 音乐生成器，支持扩展、替换、翻唱" [ref=e478] [cursor=pointer]:
+              - /url: /site/313
+              - img "Nafy AI" [ref=e480]
+              - generic [ref=e481]:
+                - heading "Nafy AI" [level=3] [ref=e482]
+                - paragraph [ref=e483]: 在线 AI 音乐生成器，支持扩展、替换、翻唱
+            - link "轻析 LiteSight 轻析 LiteSight AI 视频内容提取工具，自动转文字" [ref=e484] [cursor=pointer]:
+              - /url: /site/314
+              - img "轻析 LiteSight" [ref=e486]
+              - generic [ref=e487]:
+                - heading "轻析 LiteSight" [level=3] [ref=e488]
+                - paragraph [ref=e489]: AI 视频内容提取工具，自动转文字
+            - link "TurboScribe TurboScribe 专业 AI 音视频转文字工具" [ref=e490] [cursor=pointer]:
+              - /url: /site/315
+              - img "TurboScribe" [ref=e492]
+              - generic [ref=e493]:
+                - heading "TurboScribe" [level=3] [ref=e494]
+                - paragraph [ref=e495]: 专业 AI 音视频转文字工具
+            - link "多维视界 多维视界 一站式AI音视频智能分析平台" [ref=e496] [cursor=pointer]:
+              - /url: /site/316
+              - img "多维视界" [ref=e498]
+              - generic [ref=e499]:
+                - heading "多维视界" [level=3] [ref=e500]
+                - paragraph [ref=e501]: 一站式AI音视频智能分析平台
+            - link "音疯 音疯 昆仑万维推出的AI音乐创作平台，一键生成原创歌曲" [ref=e502] [cursor=pointer]:
+              - /url: /site/317
+              - img "音疯" [ref=e504]
+              - generic [ref=e505]:
+                - heading "音疯" [level=3] [ref=e506]
+                - paragraph [ref=e507]: 昆仑万维推出的AI音乐创作平台，一键生成原创歌曲
+            - link "音潮 音潮 全栈自研的AI音乐创作平台" [ref=e508] [cursor=pointer]:
+              - /url: /site/318
+              - img "音潮" [ref=e510]
+              - generic [ref=e511]:
+                - heading "音潮" [level=3] [ref=e512]
+                - paragraph [ref=e513]: 全栈自研的AI音乐创作平台
+            - link "音剪 音剪 喜马拉雅推出的一站式AI音频创作平台" [ref=e514] [cursor=pointer]:
+              - /url: /site/319
+              - img "音剪" [ref=e516]
+              - generic [ref=e517]:
+                - heading "音剪" [level=3] [ref=e518]
+                - paragraph [ref=e519]: 喜马拉雅推出的一站式AI音频创作平台
+            - link "音秘 音秘 百度推出的AI播客创作工具" [ref=e520] [cursor=pointer]:
+              - /url: /site/320
+              - img "音秘" [ref=e522]
+              - generic [ref=e523]:
+                - heading "音秘" [level=3] [ref=e524]
+                - paragraph [ref=e525]: 百度推出的AI播客创作工具
+            - link "MemoAI MemoAI 免费的AI语音转文字工具" [ref=e526] [cursor=pointer]:
+              - /url: /site/321
+              - img "MemoAI" [ref=e528]
+              - generic [ref=e529]:
+                - heading "MemoAI" [level=3] [ref=e530]
+                - paragraph [ref=e531]: 免费的AI语音转文字工具
+            - link "Reecho睿声 Reecho睿声 超拟真的中英文AI语音克隆/生成平台" [ref=e532] [cursor=pointer]:
+              - /url: /site/322
+              - img "Reecho睿声" [ref=e534]
+              - generic [ref=e535]:
+                - heading "Reecho睿声" [level=3] [ref=e536]
+                - paragraph [ref=e537]: 超拟真的中英文AI语音克隆/生成平台
+            - link "Udio Udio 免费的AI音乐创作工具，每月可生成1200首歌曲" [ref=e538] [cursor=pointer]:
+              - /url: /site/323
+              - img "Udio" [ref=e540]
+              - generic [ref=e541]:
+                - heading "Udio" [level=3] [ref=e542]
+                - paragraph [ref=e543]: 免费的AI音乐创作工具，每月可生成1200首歌曲
+            - link "魔音工坊 魔音工坊 AI配音工具，轻松配出媲美真人的声音" [ref=e544] [cursor=pointer]:
+              - /url: /site/299
+              - img "魔音工坊" [ref=e546]
+              - generic [ref=e547]:
+                - heading "魔音工坊" [level=3] [ref=e548]
+                - paragraph [ref=e549]: AI配音工具，轻松配出媲美真人的声音
+            - link "讯飞智作 讯飞智作 AI文本配音工具，数字人课程、营销视频制作" [ref=e550] [cursor=pointer]:
+              - /url: /site/300
+              - img "讯飞智作" [ref=e552]
+              - generic [ref=e553]:
+                - heading "讯飞智作" [level=3] [ref=e554]
+                - paragraph [ref=e555]: AI文本配音工具，数字人课程、营销视频制作
+            - link "逗哥配音 逗哥配音 一站式AI配音工具，抖音爆款配音始发地" [ref=e556] [cursor=pointer]:
+              - /url: /site/301
+              - img "逗哥配音" [ref=e558]
+              - generic [ref=e559]:
+                - heading "逗哥配音" [level=3] [ref=e560]
+                - paragraph [ref=e561]: 一站式AI配音工具，抖音爆款配音始发地
+            - link "讯飞译制 讯飞译制 科大讯飞推出的AI音视频本地化平台" [ref=e562] [cursor=pointer]:
+              - /url: /site/302
+              - img "讯飞译制" [ref=e564]
+              - generic [ref=e565]:
+                - heading "讯飞译制" [level=3] [ref=e566]
+                - paragraph [ref=e567]: 科大讯飞推出的AI音视频本地化平台
+            - link "Suno Suno 高质量的AI音乐创作平台" [ref=e568] [cursor=pointer]:
+              - /url: /site/303
+              - img "Suno" [ref=e570]
+              - generic [ref=e571]:
+                - heading "Suno" [level=3] [ref=e572]
+                - paragraph [ref=e573]: 高质量的AI音乐创作平台
+            - link "音述AI 音述AI 全球首个AI音乐社区" [ref=e574] [cursor=pointer]:
+              - /url: /site/304
+              - img "音述AI" [ref=e576]
+              - generic [ref=e577]:
+                - heading "音述AI" [level=3] [ref=e578]
+                - paragraph [ref=e579]: 全球首个AI音乐社区
+            - link "ElevenLabs ElevenLabs AI文本转语音，支持包含中文在内的29种语言" [ref=e580] [cursor=pointer]:
+              - /url: /site/305
+              - img "ElevenLabs" [ref=e582]
+              - generic [ref=e583]:
+                - heading "ElevenLabs" [level=3] [ref=e584]
+                - paragraph [ref=e585]: AI文本转语音，支持包含中文在内的29种语言
+            - link "琅琅配音 琅琅配音 智能文本转语音工具" [ref=e586] [cursor=pointer]:
+              - /url: /site/306
+              - img "琅琅配音" [ref=e588]
+              - generic [ref=e589]:
+                - heading "琅琅配音" [level=3] [ref=e590]
+                - paragraph [ref=e591]: 智能文本转语音工具
+        - generic [ref=e592]:
+          - heading "图 AI图像工具" [level=2] [ref=e594]:
+            - generic [ref=e595]: 图
+            - text: AI图像工具
+          - generic [ref=e596]:
+            - link "Pic Copilot Pic Copilot 阿里国际推出的AI电商设计工具" [ref=e597] [cursor=pointer]:
+              - /url: /site/293
+              - img "Pic Copilot" [ref=e599]
+              - generic [ref=e600]:
+                - heading "Pic Copilot" [level=3] [ref=e601]
+                - paragraph [ref=e602]: 阿里国际推出的AI电商设计工具
+            - link "可灵AI 可灵AI 快手推出的AI视频生成工具" [ref=e603] [cursor=pointer]:
+              - /url: /site/127
+              - img "可灵AI" [ref=e605]
+              - generic [ref=e606]:
+                - heading "可灵AI" [level=3] [ref=e607]
+                - paragraph [ref=e608]: 快手推出的AI视频生成工具
+            - link "绘蛙AI 绘蛙AI AI 电商营销工具，免费生成商品图" [ref=e609] [cursor=pointer]:
+              - /url: /site/87
+              - img "绘蛙AI" [ref=e611]
+              - generic [ref=e612]:
+                - heading "绘蛙AI" [level=3] [ref=e613]
+                - paragraph [ref=e614]: AI 电商营销工具，免费生成商品图
+            - link "堆友AI反应堆 堆友AI反应堆 全能AI绘画生成器" [ref=e615] [cursor=pointer]:
+              - /url: /site/88
+              - img "堆友AI反应堆" [ref=e617]
+              - generic [ref=e618]:
+                - heading "堆友AI反应堆" [level=3] [ref=e619]
+                - paragraph [ref=e620]: 全能AI绘画生成器
+            - link "LiblibAI·哩布哩布AI LiblibAI·哩布哩布AI 国内领先的AI图像创作平台和模型分享社区" [ref=e621] [cursor=pointer]:
+              - /url: /site/89
+              - img "LiblibAI·哩布哩布AI" [ref=e623]
+              - generic [ref=e624]:
+                - heading "LiblibAI·哩布哩布AI" [level=3] [ref=e625]
+                - paragraph [ref=e626]: 国内领先的AI图像创作平台和模型分享社区
+            - link "阿贝智能 阿贝智能 一站式AI绘本创作平台，副业变现必备" [ref=e627] [cursor=pointer]:
+              - /url: /site/90
+              - img "阿贝智能" [ref=e629]
+              - generic [ref=e630]:
+                - heading "阿贝智能" [level=3] [ref=e631]
+                - paragraph [ref=e632]: 一站式AI绘本创作平台，副业变现必备
+            - link "Midjourney Midjourney AI图像和插画生成工具" [ref=e633] [cursor=pointer]:
+              - /url: /site/92
+              - img "Midjourney" [ref=e635]
+              - generic [ref=e636]:
+                - heading "Midjourney" [level=3] [ref=e637]
+                - paragraph [ref=e638]: AI图像和插画生成工具
+            - link "Stable Diffusion Stable Diffusion StabilityAI推出的文本到图像生成AI" [ref=e639] [cursor=pointer]:
+              - /url: /site/93
+              - img "Stable Diffusion" [ref=e641]
+              - generic [ref=e642]:
+                - heading "Stable Diffusion" [level=3] [ref=e643]
+                - paragraph [ref=e644]: StabilityAI推出的文本到图像生成AI
+            - link "Civitai Civitai 免费的AI图像绘画作品和模型分享平台和社区" [ref=e645] [cursor=pointer]:
+              - /url: /site/94
+              - img "Civitai" [ref=e647]
+              - generic [ref=e648]:
+                - heading "Civitai" [level=3] [ref=e649]
+                - paragraph [ref=e650]: 免费的AI图像绘画作品和模型分享平台和社区
+            - link "RunningHub RunningHub 基于云端ComfyUI的AI图像与视频创作平台" [ref=e651] [cursor=pointer]:
+              - /url: /site/96
+              - img "RunningHub" [ref=e653]
+              - generic [ref=e654]:
+                - heading "RunningHub" [level=3] [ref=e655]
+                - paragraph [ref=e656]: 基于云端ComfyUI的AI图像与视频创作平台
+            - link "通义万相 通义万相 阿里推出的AI创意内容生成平台" [ref=e657] [cursor=pointer]:
+              - /url: /site/97
+              - img "通义万相" [ref=e659]
+              - generic [ref=e660]:
+                - heading "通义万相" [level=3] [ref=e661]
+                - paragraph [ref=e662]: 阿里推出的AI创意内容生成平台
+            - link "可灵AI 可灵AI 快手推出的AI图像和视频创作平台" [ref=e663] [cursor=pointer]:
+              - /url: /site/98
+              - img "可灵AI" [ref=e665]
+              - generic [ref=e666]:
+                - heading "可灵AI" [level=3] [ref=e667]
+                - paragraph [ref=e668]: 快手推出的AI图像和视频创作平台
+            - link "秒画 秒画 商汤科技推出的免费AI作画和图片生成平台" [ref=e669] [cursor=pointer]:
+              - /url: /site/99
+              - img "秒画" [ref=e671]
+              - generic [ref=e672]:
+                - heading "秒画" [level=3] [ref=e673]
+                - paragraph [ref=e674]: 商汤科技推出的免费AI作画和图片生成平台
+            - link "WHEE WHEE 美图推出的AI图片和绘画创作生成平台" [ref=e675] [cursor=pointer]:
+              - /url: /site/100
+              - img "WHEE" [ref=e677]
+              - generic [ref=e678]:
+                - heading "WHEE" [level=3] [ref=e679]
+                - paragraph [ref=e680]: 美图推出的AI图片和绘画创作生成平台
+            - link "呜哩 呜哩 阿里推出的AIGC创意生产力平台" [ref=e681] [cursor=pointer]:
+              - /url: /site/101
+              - img "呜哩" [ref=e683]
+              - generic [ref=e684]:
+                - heading "呜哩" [level=3] [ref=e685]
+                - paragraph [ref=e686]: 阿里推出的AIGC创意生产力平台
+            - link "insMind insMind 稿定面向全球市场推出的AI图片编辑工具" [ref=e687] [cursor=pointer]:
+              - /url: /site/102
+              - img "insMind" [ref=e689]
+              - generic [ref=e690]:
+                - heading "insMind" [level=3] [ref=e691]
+                - paragraph [ref=e692]: 稿定面向全球市场推出的AI图片编辑工具
+            - link "抠抠图 抠抠图 免费在线AI抠图工具，一键批量抠图" [ref=e693] [cursor=pointer]:
+              - /url: /site/103
+              - img "抠抠图" [ref=e695]
+              - generic [ref=e696]:
+                - heading "抠抠图" [level=3] [ref=e697]
+                - paragraph [ref=e698]: 免费在线AI抠图工具，一键批量抠图
+            - link "Krene Krene 深耕游戏/影视美术创作领域的 AIGC 创作平台" [ref=e699] [cursor=pointer]:
+              - /url: /site/104
+              - img "Krene" [ref=e701]
+              - generic [ref=e702]:
+                - heading "Krene" [level=3] [ref=e703]
+                - paragraph [ref=e704]: 深耕游戏/影视美术创作领域的 AIGC 创作平台
+            - link "AI改图神器 AI改图神器 AI在线图像编辑工具" [ref=e705] [cursor=pointer]:
+              - /url: /site/105
+              - img "AI改图神器" [ref=e707]
+              - generic [ref=e708]:
+                - heading "AI改图神器" [level=3] [ref=e709]
+                - paragraph [ref=e710]: AI在线图像编辑工具
+            - link "米粿AI 米粿AI 懂画师的渐进式分层绘画助手，主攻日系二次元绘画" [ref=e711] [cursor=pointer]:
+              - /url: /site/106
+              - img "米粿AI" [ref=e713]
+              - generic [ref=e714]:
+                - heading "米粿AI" [level=3] [ref=e715]
+                - paragraph [ref=e716]: 懂画师的渐进式分层绘画助手，主攻日系二次元绘画
+            - link "咖图AI 咖图AI AI图像设计平台，搭载NanoBanana Pro模型" [ref=e717] [cursor=pointer]:
+              - /url: /site/107
+              - img "咖图AI" [ref=e719]
+              - generic [ref=e720]:
+                - heading "咖图AI" [level=3] [ref=e721]
+                - paragraph [ref=e722]: AI图像设计平台，搭载NanoBanana Pro模型
+            - link "视觉工厂 视觉工厂 AI创作工具，支持AI生图和视频生成服务" [ref=e723] [cursor=pointer]:
+              - /url: /site/108
+              - img "视觉工厂" [ref=e725]
+              - generic [ref=e726]:
+                - heading "视觉工厂" [level=3] [ref=e727]
+                - paragraph [ref=e728]: AI创作工具，支持AI生图和视频生成服务
+            - link "秒绘AI 秒绘AI 一键生成爆款图文，免费发布小红书" [ref=e729] [cursor=pointer]:
+              - /url: /site/109
+              - img "秒绘AI" [ref=e731]
+              - generic [ref=e732]:
+                - heading "秒绘AI" [level=3] [ref=e733]
+                - paragraph [ref=e734]: 一键生成爆款图文，免费发布小红书
+            - link "妙话AI 妙话AI 专为内容创作者设计的创意图片生成工具" [ref=e735] [cursor=pointer]:
+              - /url: /site/110
+              - img "妙话AI" [ref=e737]
+              - generic [ref=e738]:
+                - heading "妙话AI" [level=3] [ref=e739]
+                - paragraph [ref=e740]: 专为内容创作者设计的创意图片生成工具
+            - link "Krea AI Krea AI 实时AI图像、视频生成和编辑平台" [ref=e741] [cursor=pointer]:
+              - /url: /site/111
+              - img "Krea AI" [ref=e743]
+              - generic [ref=e744]:
+                - heading "Krea AI" [level=3] [ref=e745]
+                - paragraph [ref=e746]: 实时AI图像、视频生成和编辑平台
+            - link "Kira Kira AI 图像生成与编辑工具" [ref=e747] [cursor=pointer]:
+              - /url: /site/112
+              - img "Kira" [ref=e749]
+              - generic [ref=e750]:
+                - heading "Kira" [level=3] [ref=e751]
+                - paragraph [ref=e752]: AI 图像生成与编辑工具
+        - generic [ref=e753]:
+          - heading "设 AI设计工具" [level=2] [ref=e755]:
+            - generic [ref=e756]: 设
+            - text: AI设计工具
+          - generic [ref=e757]:
+            - link "堆友AI 堆友AI 专为设计师打造的AI设计服务平台" [ref=e758] [cursor=pointer]:
+              - /url: /site/272
+              - img "堆友AI" [ref=e760]
+              - generic [ref=e761]:
+                - heading "堆友AI" [level=3] [ref=e762]
+                - paragraph [ref=e763]: 专为设计师打造的AI设计服务平台
+            - link "星流AI 星流AI 一站式 AI 设计与创作工具" [ref=e764] [cursor=pointer]:
+              - /url: /site/273
+              - img "星流AI" [ref=e766]
+              - generic [ref=e767]:
+                - heading "星流AI" [level=3] [ref=e768]
+                - paragraph [ref=e769]: 一站式 AI 设计与创作工具
+            - link "稿定AI 稿定AI 一站式AI创作和设计平台" [ref=e770] [cursor=pointer]:
+              - /url: /site/274
+              - img "稿定AI" [ref=e772]
+              - generic [ref=e773]:
+                - heading "稿定AI" [level=3] [ref=e774]
+                - paragraph [ref=e775]: 一站式AI创作和设计平台
+            - link "墨刀AI 墨刀AI AI秒生原型稿" [ref=e776] [cursor=pointer]:
+              - /url: /site/275
+              - img "墨刀AI" [ref=e778]
+              - generic [ref=e779]:
+                - heading "墨刀AI" [level=3] [ref=e780]
+                - paragraph [ref=e781]: AI秒生原型稿
+            - link "七色米AI 七色米AI AI 智能营销内容创作平台" [ref=e782] [cursor=pointer]:
+              - /url: /site/276
+              - img "七色米AI" [ref=e784]
+              - generic [ref=e785]:
+                - heading "七色米AI" [level=3] [ref=e786]
+                - paragraph [ref=e787]: AI 智能营销内容创作平台
+            - link "135 AI排版 135 AI排版 公众号AI图文排版和智能文案生成工具" [ref=e788] [cursor=pointer]:
+              - /url: /site/277
+              - img "135 AI排版" [ref=e790]
+              - generic [ref=e791]:
+                - heading "135 AI排版" [level=3] [ref=e792]
+                - paragraph [ref=e793]: 公众号AI图文排版和智能文案生成工具
+            - link "Holopix AI Holopix AI 专为游戏、动漫、插画设计打造的AI设计平台" [ref=e794] [cursor=pointer]:
+              - /url: /site/278
+              - img "Holopix AI" [ref=e796]
+              - generic [ref=e797]:
+                - heading "Holopix AI" [level=3] [ref=e798]
+                - paragraph [ref=e799]: 专为游戏、动漫、插画设计打造的AI设计平台
+            - link "Figma AI Figma AI Figma推出的原生AI设计工具" [ref=e800] [cursor=pointer]:
+              - /url: /site/279
+              - img "Figma AI" [ref=e802]
+              - generic [ref=e803]:
+                - heading "Figma AI" [level=3] [ref=e804]
+                - paragraph [ref=e805]: Figma推出的原生AI设计工具
+            - link "Seede AI Seede AI 面向普通人的 AI 原生设计工具" [ref=e806] [cursor=pointer]:
+              - /url: /site/280
+              - img "Seede AI" [ref=e808]
+              - generic [ref=e809]:
+                - heading "Seede AI" [level=3] [ref=e810]
+                - paragraph [ref=e811]: 面向普通人的 AI 原生设计工具
+            - link "Wegic Wegic AI网页设计和建站开发工具" [ref=e812] [cursor=pointer]:
+              - /url: /site/281
+              - img "Wegic" [ref=e814]
+              - generic [ref=e815]:
+                - heading "Wegic" [level=3] [ref=e816]
+                - paragraph [ref=e817]: AI网页设计和建站开发工具
+            - link "Pixso AI Pixso AI Pixso推出的AI设计工具" [ref=e818] [cursor=pointer]:
+              - /url: /site/282
+              - img "Pixso AI" [ref=e820]
+              - generic [ref=e821]:
+                - heading "Pixso AI" [level=3] [ref=e822]
+                - paragraph [ref=e823]: Pixso推出的AI设计工具
+            - link "Recraft AI Recraft AI 免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画" [ref=e824] [cursor=pointer]:
+              - /url: /site/283
+              - img "Recraft AI" [ref=e826]
+              - generic [ref=e827]:
+                - heading "Recraft AI" [level=3] [ref=e828]
+                - paragraph [ref=e829]: 免费无限AI画板，生成高质量矢量艺术画、图标、3D图片和插画
+            - link "Stitch Stitch Google Labs 推出的 AI 原生设计工具" [ref=e830] [cursor=pointer]:
+              - /url: /site/284
+              - img "Stitch" [ref=e832]
+              - generic [ref=e833]:
+                - heading "Stitch" [level=3] [ref=e834]
+                - paragraph [ref=e835]: Google Labs 推出的 AI 原生设计工具
+            - link "Miora Miora 腾讯推出的 AI 原生设计协作工具" [ref=e836] [cursor=pointer]:
+              - /url: /site/285
+              - img "Miora" [ref=e838]
+              - generic [ref=e839]:
+                - heading "Miora" [level=3] [ref=e840]
+                - paragraph [ref=e841]: 腾讯推出的 AI 原生设计协作工具
+            - link "Ardot Ardot 腾讯推出的 AI 智能设计工具" [ref=e842] [cursor=pointer]:
+              - /url: /site/286
+              - img "Ardot" [ref=e844]
+              - generic [ref=e845]:
+                - heading "Ardot" [level=3] [ref=e846]
+                - paragraph [ref=e847]: 腾讯推出的 AI 智能设计工具
+            - link "创客贴AI 创客贴AI AI辅助的智能在线设计工具" [ref=e848] [cursor=pointer]:
+              - /url: /site/287
+              - img "创客贴AI" [ref=e850]
+              - generic [ref=e851]:
+                - heading "创客贴AI" [level=3] [ref=e852]
+                - paragraph [ref=e853]: AI辅助的智能在线设计工具
+            - link "Open Design Open Design 开源本地优先的 AI 设计工作空间" [ref=e854] [cursor=pointer]:
+              - /url: /site/288
+              - img "Open Design" [ref=e856]
+              - generic [ref=e857]:
+                - heading "Open Design" [level=3] [ref=e858]
+                - paragraph [ref=e859]: 开源本地优先的 AI 设计工作空间
+            - link "Ribbi Ribbi 专为设计师打造的自进化创意 AI Agent" [ref=e860] [cursor=pointer]:
+              - /url: /site/289
+              - img "Ribbi" [ref=e862]
+              - generic [ref=e863]:
+                - heading "Ribbi" [level=3] [ref=e864]
+                - paragraph [ref=e865]: 专为设计师打造的自进化创意 AI Agent
+            - link "Interiorize Interiorize 专注于空间改造的 AI 室内设计工具" [ref=e866] [cursor=pointer]:
+              - /url: /site/290
+              - img "Interiorize" [ref=e868]
+              - generic [ref=e869]:
+                - heading "Interiorize" [level=3] [ref=e870]
+                - paragraph [ref=e871]: 专注于空间改造的 AI 室内设计工具
+            - link "QuiverAI QuiverAI AI矢量图形生成工具，输出可编辑的 SVG 代码" [ref=e872] [cursor=pointer]:
+              - /url: /site/291
+              - img "QuiverAI" [ref=e874]
+              - generic [ref=e875]:
+                - heading "QuiverAI" [level=3] [ref=e876]
+                - paragraph [ref=e877]: AI矢量图形生成工具，输出可编辑的 SVG 代码
+            - link "GemDesign GemDesign AI原生高保真原型设计工具" [ref=e878] [cursor=pointer]:
+              - /url: /site/292
+              - img "GemDesign" [ref=e880]
+              - generic [ref=e881]:
+                - heading "GemDesign" [level=3] [ref=e882]
+                - paragraph [ref=e883]: AI原生高保真原型设计工具
+            - link "魔力工作室 魔力工作室 Canva可画推出的一站式AI创作套件" [ref=e884] [cursor=pointer]:
+              - /url: /site/294
+              - img "魔力工作室" [ref=e886]
+              - generic [ref=e887]:
+                - heading "魔力工作室" [level=3] [ref=e888]
+                - paragraph [ref=e889]: Canva可画推出的一站式AI创作套件
+            - link "蚂上有创意 蚂上有创意 支付宝推出的AI设计工具，面向商家提供电商设计服务" [ref=e890] [cursor=pointer]:
+              - /url: /site/295
+              - img "蚂上有创意" [ref=e892]
+              - generic [ref=e893]:
+                - heading "蚂上有创意" [level=3] [ref=e894]
+                - paragraph [ref=e895]: 支付宝推出的AI设计工具，面向商家提供电商设计服务
+            - link "爱设计 爱设计 AI在线设计平台，提供多端在线拖拽设计工具" [ref=e896] [cursor=pointer]:
+              - /url: /site/296
+              - img "爱设计" [ref=e898]
+              - generic [ref=e899]:
+                - heading "爱设计" [level=3] [ref=e900]
+                - paragraph [ref=e901]: AI在线设计平台，提供多端在线拖拽设计工具
+            - link "PagePop PagePop 一站式全能AI内容创作和设计平台" [ref=e902] [cursor=pointer]:
+              - /url: /site/297
+              - img "PagePop" [ref=e904]
+              - generic [ref=e905]:
+                - heading "PagePop" [level=3] [ref=e906]
+                - paragraph [ref=e907]: 一站式全能AI内容创作和设计平台
+            - link "小墨鹰编辑器 小墨鹰编辑器 行业首创的AI公众号排版工具，30s搞定推文排版！" [ref=e908] [cursor=pointer]:
+              - /url: /site/298
+              - img "小墨鹰编辑器" [ref=e910]
+              - generic [ref=e911]:
+                - heading "小墨鹰编辑器" [level=3] [ref=e912]
+                - paragraph [ref=e913]: 行业首创的AI公众号排版工具，30s搞定推文排版！
+            - link "美图设计室 美图设计室 AI图像创作和设计平台" [ref=e914] [cursor=pointer]:
+              - /url: /site/91
+              - img "美图设计室" [ref=e916]
+              - generic [ref=e917]:
+                - heading "美图设计室" [level=3] [ref=e918]
+                - paragraph [ref=e919]: AI图像创作和设计平台
+        - generic [ref=e920]:
+          - heading "视 AI视频工具" [level=2] [ref=e922]:
+            - generic [ref=e923]: 视
+            - text: AI视频工具
+          - generic [ref=e924]:
+            - link "SoundView SoundView 讯飞推出的AI短视频智能创作平台" [ref=e925] [cursor=pointer]:
+              - /url: /site/117
+              - img "SoundView" [ref=e927]
+              - generic [ref=e928]:
+                - heading "SoundView" [level=3] [ref=e929]
+                - paragraph [ref=e930]: 讯飞推出的AI短视频智能创作平台
+            - link "HeyGen HeyGen 专业的AI数字人视频创作平台" [ref=e931] [cursor=pointer]:
+              - /url: /site/118
+              - img "HeyGen" [ref=e933]
+              - generic [ref=e934]:
+                - heading "HeyGen" [level=3] [ref=e935]
+                - paragraph [ref=e936]: 专业的AI数字人视频创作平台
+            - link "LiblibAI LiblibAI 一站式 AI 内容创作生成平台" [ref=e937] [cursor=pointer]:
+              - /url: /site/120
+              - img "LiblibAI" [ref=e939]
+              - generic [ref=e940]:
+                - heading "LiblibAI" [level=3] [ref=e941]
+                - paragraph [ref=e942]: 一站式 AI 内容创作生成平台
+            - link "有言 有言 一站式AI视频创作和3D数字人生成平台" [ref=e943] [cursor=pointer]:
+              - /url: /site/121
+              - img "有言" [ref=e945]
+              - generic [ref=e946]:
+                - heading "有言" [level=3] [ref=e947]
+                - paragraph [ref=e948]: 一站式AI视频创作和3D数字人生成平台
+            - link "白日梦 白日梦 领先AI创作平台，可生成最长50分钟的视频" [ref=e949] [cursor=pointer]:
+              - /url: /site/122
+              - img "白日梦" [ref=e951]
+              - generic [ref=e952]:
+                - heading "白日梦" [level=3] [ref=e953]
+                - paragraph [ref=e954]: 领先AI创作平台，可生成最长50分钟的视频
+            - link "Seedance Seedance 字节跳动 Seed 团队推出的多模态 AI 视频生成模型" [ref=e955] [cursor=pointer]:
+              - /url: /site/123
+              - img "Seedance" [ref=e957]
+              - generic [ref=e958]:
+                - heading "Seedance" [level=3] [ref=e959]
+                - paragraph [ref=e960]: 字节跳动 Seed 团队推出的多模态 AI 视频生成模型
+            - link "魔珐星云 魔珐星云 具身智能3D数字人开放平台" [ref=e961] [cursor=pointer]:
+              - /url: /site/124
+              - img "魔珐星云" [ref=e963]
+              - generic [ref=e964]:
+                - heading "魔珐星云" [level=3] [ref=e965]
+                - paragraph [ref=e966]: 具身智能3D数字人开放平台
+            - link "Pollo AI Pollo AI 一站式AI图像和视频创作平台" [ref=e967] [cursor=pointer]:
+              - /url: /site/125
+              - img "Pollo AI" [ref=e969]
+              - generic [ref=e970]:
+                - heading "Pollo AI" [level=3] [ref=e971]
+                - paragraph [ref=e972]: 一站式AI图像和视频创作平台
+            - link "JoyPix JoyPix AI数字人创作工具，支持声音克隆" [ref=e973] [cursor=pointer]:
+              - /url: /site/126
+              - img "JoyPix" [ref=e975]
+              - generic [ref=e976]:
+                - heading "JoyPix" [level=3] [ref=e977]
+                - paragraph [ref=e978]: AI数字人创作工具，支持声音克隆
+            - link "腾讯混元AI视频 腾讯混元AI视频 腾讯推出的AI视频生成工具" [ref=e979] [cursor=pointer]:
+              - /url: /site/128
+              - img "腾讯混元AI视频" [ref=e981]
+              - generic [ref=e982]:
+                - heading "腾讯混元AI视频" [level=3] [ref=e983]
+                - paragraph [ref=e984]: 腾讯推出的AI视频生成工具
+            - link "灵芽社区 灵芽社区 腾讯推出的 AI 多模态创作者社区" [ref=e985] [cursor=pointer]:
+              - /url: /site/129
+              - img "灵芽社区" [ref=e987]
+              - generic [ref=e988]:
+                - heading "灵芽社区" [level=3] [ref=e989]
+                - paragraph [ref=e990]: 腾讯推出的 AI 多模态创作者社区
+            - link "Lumen Flow Lumen Flow 端到端 AI 漫剧自动生产线，AI 剧本一键成片" [ref=e991] [cursor=pointer]:
+              - /url: /site/130
+              - img "Lumen Flow" [ref=e993]
+              - generic [ref=e994]:
+                - heading "Lumen Flow" [level=3] [ref=e995]
+                - paragraph [ref=e996]: 端到端 AI 漫剧自动生产线，AI 剧本一键成片
+            - link "RHTV RHTV RunningHub 推出的原生 AI 无限画布创作工具" [ref=e997] [cursor=pointer]:
+              - /url: /site/131
+              - img "RHTV" [ref=e999]
+              - generic [ref=e1000]:
+                - heading "RHTV" [level=3] [ref=e1001]
+                - paragraph [ref=e1002]: RunningHub 推出的原生 AI 无限画布创作工具
+            - link "TapNow TapNow AI视觉内容创作平台，提供多种预设工作流" [ref=e1003] [cursor=pointer]:
+              - /url: /site/132
+              - img "TapNow" [ref=e1005]
+              - generic [ref=e1006]:
+                - heading "TapNow" [level=3] [ref=e1007]
+                - paragraph [ref=e1008]: AI视觉内容创作平台，提供多种预设工作流
+            - link "Higgsfield Higgsfield AI视频生成工具，支持专业运镜效果" [ref=e1009] [cursor=pointer]:
+              - /url: /site/133
+              - img "Higgsfield" [ref=e1011]
+              - generic [ref=e1012]:
+                - heading "Higgsfield" [level=3] [ref=e1013]
+                - paragraph [ref=e1014]: AI视频生成工具，支持专业运镜效果
+            - link "Vidu Vidu 生数科技推出的AI视频生成大模型" [ref=e1015] [cursor=pointer]:
+              - /url: /site/134
+              - img "Vidu" [ref=e1017]
+              - generic [ref=e1018]:
+                - heading "Vidu" [level=3] [ref=e1019]
+                - paragraph [ref=e1020]: 生数科技推出的AI视频生成大模型
+            - link "Flova Flova 全球首个一体化 AI 视频创作平台" [ref=e1021] [cursor=pointer]:
+              - /url: /site/135
+              - img "Flova" [ref=e1023]
+              - generic [ref=e1024]:
+                - heading "Flova" [level=3] [ref=e1025]
+                - paragraph [ref=e1026]: 全球首个一体化 AI 视频创作平台
+            - link "OhYesAI OhYesAI AI 音乐 MV 一体化创作智能体平台" [ref=e1027] [cursor=pointer]:
+              - /url: /site/136
+              - img "OhYesAI" [ref=e1029]
+              - generic [ref=e1030]:
+                - heading "OhYesAI" [level=3] [ref=e1031]
+                - paragraph [ref=e1032]: AI 音乐 MV 一体化创作智能体平台
+            - link "Oiiyao Oiiyao AI视频本地化平台" [ref=e1033] [cursor=pointer]:
+              - /url: /site/137
+              - img "Oiiyao" [ref=e1035]
+              - generic [ref=e1036]:
+                - heading "Oiiyao" [level=3] [ref=e1037]
+                - paragraph [ref=e1038]: AI视频本地化平台
+            - link "交织 Weave 交织 Weave AI全能创作平台，一站式实现你的创意" [ref=e1039] [cursor=pointer]:
+              - /url: /site/138
+              - img "交织 Weave" [ref=e1041]
+              - generic [ref=e1042]:
+                - heading "交织 Weave" [level=3] [ref=e1043]
+                - paragraph [ref=e1044]: AI全能创作平台，一站式实现你的创意
+            - link "立刻MV 立刻MV 一站式 AI 音乐视频（MV）创作工具" [ref=e1045] [cursor=pointer]:
+              - /url: /site/139
+              - img "立刻MV" [ref=e1047]
+              - generic [ref=e1048]:
+                - heading "立刻MV" [level=3] [ref=e1049]
+                - paragraph [ref=e1050]: 一站式 AI 音乐视频（MV）创作工具
+            - link "雾象 雾象 免费开源的AI动画生成工具" [ref=e1051] [cursor=pointer]:
+              - /url: /site/140
+              - img "雾象" [ref=e1053]
+              - generic [ref=e1054]:
+                - heading "雾象" [level=3] [ref=e1055]
+                - paragraph [ref=e1056]: 免费开源的AI动画生成工具
+            - link "造点AI 造点AI 夸克团队推出的AI图像与视频创作平台" [ref=e1057] [cursor=pointer]:
+              - /url: /site/95
+              - img "造点AI" [ref=e1059]
+              - generic [ref=e1060]:
+                - heading "造点AI" [level=3] [ref=e1061]
+                - paragraph [ref=e1062]: 夸克团队推出的AI图像与视频创作平台
+            - link "LibTV LibTV 专业AI视频创作平台，支持Seedance 2.0（真人参考）" [ref=e1063] [cursor=pointer]:
+              - /url: /site/113
+              - img "LibTV" [ref=e1065]
+              - generic [ref=e1066]:
+                - heading "LibTV" [level=3] [ref=e1067]
+                - paragraph [ref=e1068]: 专业AI视频创作平台，支持Seedance 2.0（真人参考）
+            - link "即梦AI 即梦AI 一站式AI视频、图片、数字人创作工具" [ref=e1069] [cursor=pointer]:
+              - /url: /site/114
+              - img "即梦AI" [ref=e1071]
+              - generic [ref=e1072]:
+                - heading "即梦AI" [level=3] [ref=e1073]
+                - paragraph [ref=e1074]: 一站式AI视频、图片、数字人创作工具
+            - link "绘蛙AI视频 绘蛙AI视频 绘蛙推出的AI图生视频工具" [ref=e1075] [cursor=pointer]:
+              - /url: /site/115
+              - img "绘蛙AI视频" [ref=e1077]
+              - generic [ref=e1078]:
+                - heading "绘蛙AI视频" [level=3] [ref=e1079]
+                - paragraph [ref=e1080]: 绘蛙推出的AI图生视频工具
+            - link "堆友AI视频 堆友AI视频 堆友推出的AI视频生成工具" [ref=e1081] [cursor=pointer]:
+              - /url: /site/116
+              - img "堆友AI视频" [ref=e1083]
+              - generic [ref=e1084]:
+                - heading "堆友AI视频" [level=3] [ref=e1085]
+                - paragraph [ref=e1086]: 堆友推出的AI视频生成工具
+        - generic [ref=e1087]:
+          - heading "办 AI办公工具" [level=2] [ref=e1089]:
+            - generic [ref=e1090]: 办
+            - text: AI办公工具
+          - generic [ref=e1091]:
+            - link "txyz txyz AI文献阅读和学术研究辅助平台" [ref=e1092] [cursor=pointer]:
+              - /url: /site/375
+              - img "txyz" [ref=e1094]
+              - generic [ref=e1095]:
+                - heading "txyz" [level=3] [ref=e1096]
+                - paragraph [ref=e1097]: AI文献阅读和学术研究辅助平台
+            - link "稿定PPT 稿定PPT 稿定推出的PPT模板资源库" [ref=e1098] [cursor=pointer]:
+              - /url: /site/146
+              - img "稿定PPT" [ref=e1100]
+              - generic [ref=e1101]:
+                - heading "稿定PPT" [level=3] [ref=e1102]
+                - paragraph [ref=e1103]: 稿定推出的PPT模板资源库
+            - link "笔格AIPPT 笔格AIPPT 高效的AI PPT生成工具" [ref=e1104] [cursor=pointer]:
+              - /url: /site/147
+              - img "笔格AIPPT" [ref=e1106]
+              - generic [ref=e1107]:
+                - heading "笔格AIPPT" [level=3] [ref=e1108]
+                - paragraph [ref=e1109]: 高效的AI PPT生成工具
+            - link "笔灵AIPPT 笔灵AIPPT 一键生成PPT和千字演讲稿" [ref=e1110] [cursor=pointer]:
+              - /url: /site/148
+              - img "笔灵AIPPT" [ref=e1112]
+              - generic [ref=e1113]:
+                - heading "笔灵AIPPT" [level=3] [ref=e1114]
+                - paragraph [ref=e1115]: 一键生成PPT和千字演讲稿
+            - link "百度文库AI助手 百度文库AI助手 基于文心一言的一站式智能文档助手" [ref=e1116] [cursor=pointer]:
+              - /url: /site/149
+              - img "百度文库AI助手" [ref=e1118]
+              - generic [ref=e1119]:
+                - heading "百度文库AI助手" [level=3] [ref=e1120]
+                - paragraph [ref=e1121]: 基于文心一言的一站式智能文档助手
+            - link "AiPPT插件 AiPPT插件 AiPPT推出的AI PPT制作工具（插件版）" [ref=e1122] [cursor=pointer]:
+              - /url: /site/150
+              - img "AiPPT插件" [ref=e1124]
+              - generic [ref=e1125]:
+                - heading "AiPPT插件" [level=3] [ref=e1126]
+                - paragraph [ref=e1127]: AiPPT推出的AI PPT制作工具（插件版）
+            - link "Gamma Gamma AI幻灯片演示生成工具" [ref=e1128] [cursor=pointer]:
+              - /url: /site/151
+              - img "Gamma" [ref=e1130]
+              - generic [ref=e1131]:
+                - heading "Gamma" [level=3] [ref=e1132]
+                - paragraph [ref=e1133]: AI幻灯片演示生成工具
+            - link "Napkin Napkin 将文本内容快速转换成演示图像的AI办公工具" [ref=e1134] [cursor=pointer]:
+              - /url: /site/152
+              - img "Napkin" [ref=e1136]
+              - generic [ref=e1137]:
+                - heading "Napkin" [level=3] [ref=e1138]
+                - paragraph [ref=e1139]: 将文本内容快速转换成演示图像的AI办公工具
+            - link "Swishy Swishy AI 动态设计与动画生成平台" [ref=e1140] [cursor=pointer]:
+              - /url: /site/153
+              - img "Swishy" [ref=e1142]
+              - generic [ref=e1143]:
+                - heading "Swishy" [level=3] [ref=e1144]
+                - paragraph [ref=e1145]: AI 动态设计与动画生成平台
+            - link "ChartGen ChartGen AI图表生成工具，快速生成专业图表" [ref=e1146] [cursor=pointer]:
+              - /url: /site/154
+              - img "ChartGen" [ref=e1148]
+              - generic [ref=e1149]:
+                - heading "ChartGen" [level=3] [ref=e1150]
+                - paragraph [ref=e1151]: AI图表生成工具，快速生成专业图表
+            - link "Diagrimo Diagrimo Tenorshare AI推出的AI图表生成工具" [ref=e1152] [cursor=pointer]:
+              - /url: /site/155
+              - img "Diagrimo" [ref=e1154]
+              - generic [ref=e1155]:
+                - heading "Diagrimo" [level=3] [ref=e1156]
+                - paragraph [ref=e1157]: Tenorshare AI推出的AI图表生成工具
+            - link "PicDoc PicDoc AI文本转图表工具，一键生成多种视觉图表" [ref=e1158] [cursor=pointer]:
+              - /url: /site/156
+              - img "PicDoc" [ref=e1160]
+              - generic [ref=e1161]:
+                - heading "PicDoc" [level=3] [ref=e1162]
+                - paragraph [ref=e1163]: AI文本转图表工具，一键生成多种视觉图表
+            - link "Kimi PPT助手 Kimi PPT助手 Kimi全新自研的PPT助手，一键生成PPT" [ref=e1164] [cursor=pointer]:
+              - /url: /site/157
+              - img "Kimi PPT助手" [ref=e1166]
+              - generic [ref=e1167]:
+                - heading "Kimi PPT助手" [level=3] [ref=e1168]
+                - paragraph [ref=e1169]: Kimi全新自研的PPT助手，一键生成PPT
+            - link "夸克PPT 夸克PPT 夸克团队推出的AI PPT生成工具" [ref=e1170] [cursor=pointer]:
+              - /url: /site/158
+              - img "夸克PPT" [ref=e1172]
+              - generic [ref=e1173]:
+                - heading "夸克PPT" [level=3] [ref=e1174]
+                - paragraph [ref=e1175]: 夸克团队推出的AI PPT生成工具
+            - link "美图AI PPT 美图AI PPT 美图秀秀推出的免费在线AI生成PPT设计工具" [ref=e1176] [cursor=pointer]:
+              - /url: /site/159
+              - img "美图AI PPT" [ref=e1178]
+              - generic [ref=e1179]:
+                - heading "美图AI PPT" [level=3] [ref=e1180]
+                - paragraph [ref=e1181]: 美图秀秀推出的免费在线AI生成PPT设计工具
+            - link "飞象老师 飞象老师 猿辅导推出的国内首个AI教学和备课工具" [ref=e1182] [cursor=pointer]:
+              - /url: /site/160
+              - img "飞象老师" [ref=e1184]
+              - generic [ref=e1185]:
+                - heading "飞象老师" [level=3] [ref=e1186]
+                - paragraph [ref=e1187]: 猿辅导推出的国内首个AI教学和备课工具
+            - link "二狗PPT 二狗PPT 去 AI 味中式职场 PPT 生成工具" [ref=e1188] [cursor=pointer]:
+              - /url: /site/161
+              - img "二狗PPT" [ref=e1190]
+              - generic [ref=e1191]:
+                - heading "二狗PPT" [level=3] [ref=e1192]
+                - paragraph [ref=e1193]: 去 AI 味中式职场 PPT 生成工具
+            - link "一点PPT 一点PPT 一句话生成专业PPT，AI自动排版配图" [ref=e1194] [cursor=pointer]:
+              - /url: /site/162
+              - img "一点PPT" [ref=e1196]
+              - generic [ref=e1197]:
+                - heading "一点PPT" [level=3] [ref=e1198]
+                - paragraph [ref=e1199]: 一句话生成专业PPT，AI自动排版配图
+            - link "NarraLand NarraLand AI智能演示内容创作平台" [ref=e1200] [cursor=pointer]:
+              - /url: /site/163
+              - img "NarraLand" [ref=e1202]
+              - generic [ref=e1203]:
+                - heading "NarraLand" [level=3] [ref=e1204]
+                - paragraph [ref=e1205]: AI智能演示内容创作平台
+            - link "课灵 PPT 课灵 PPT AI免费生成PPT课件" [ref=e1206] [cursor=pointer]:
+              - /url: /site/164
+              - img "课灵 PPT" [ref=e1208]
+              - generic [ref=e1209]:
+                - heading "课灵 PPT" [level=3] [ref=e1210]
+                - paragraph [ref=e1211]: AI免费生成PPT课件
+            - link "万兴智演 万兴智演 万兴科技推出的AI PPT和演示制作软件" [ref=e1212] [cursor=pointer]:
+              - /url: /site/165
+              - img "万兴智演" [ref=e1214]
+              - generic [ref=e1215]:
+                - heading "万兴智演" [level=3] [ref=e1216]
+                - paragraph [ref=e1217]: 万兴科技推出的AI PPT和演示制作软件
+            - link "麦当秀MindShow 麦当秀MindShow AI在线PPT生成工具" [ref=e1218] [cursor=pointer]:
+              - /url: /site/166
+              - img "麦当秀MindShow" [ref=e1220]
+              - generic [ref=e1221]:
+                - heading "麦当秀MindShow" [level=3] [ref=e1222]
+                - paragraph [ref=e1223]: AI在线PPT生成工具
+            - link "VoxDeck VoxDeck 创新的AI演示文稿生成工具" [ref=e1224] [cursor=pointer]:
+              - /url: /site/167
+              - img "VoxDeck" [ref=e1226]
+              - generic [ref=e1227]:
+                - heading "VoxDeck" [level=3] [ref=e1228]
+                - paragraph [ref=e1229]: 创新的AI演示文稿生成工具
+            - link "讯飞智文 讯飞智文 一键生成PPT和Word" [ref=e1230] [cursor=pointer]:
+              - /url: /site/141
+              - img "讯飞智文" [ref=e1232]
+              - generic [ref=e1233]:
+                - heading "讯飞智文" [level=3] [ref=e1234]
+                - paragraph [ref=e1235]: 一键生成PPT和Word
+            - link "咔片PPT 咔片PPT AI PPT制作工具，设计美化全流程自动化" [ref=e1236] [cursor=pointer]:
+              - /url: /site/142
+              - img "咔片PPT" [ref=e1238]
+              - generic [ref=e1239]:
+                - heading "咔片PPT" [level=3] [ref=e1240]
+                - paragraph [ref=e1241]: AI PPT制作工具，设计美化全流程自动化
+            - link "博思AIPPT 博思AIPPT PPT效率神器，AI一键生成PPT" [ref=e1242] [cursor=pointer]:
+              - /url: /site/143
+              - img "博思AIPPT" [ref=e1244]
+              - generic [ref=e1245]:
+                - heading "博思AIPPT" [level=3] [ref=e1246]
+                - paragraph [ref=e1247]: PPT效率神器，AI一键生成PPT
+            - link "iSlide AIPPT iSlide AIPPT AI一键设计精美PPT，只需一句标题" [ref=e1248] [cursor=pointer]:
+              - /url: /site/144
+              - img "iSlide AIPPT" [ref=e1250]
+              - generic [ref=e1251]:
+                - heading "iSlide AIPPT" [level=3] [ref=e1252]
+                - paragraph [ref=e1253]: AI一键设计精美PPT，只需一句标题
+            - link "Pi智能PPT Pi智能PPT 一键生成PPT，复制精美模板" [ref=e1254] [cursor=pointer]:
+              - /url: /site/145
+              - img "Pi智能PPT" [ref=e1256]
+              - generic [ref=e1257]:
+                - heading "Pi智能PPT" [level=3] [ref=e1258]
+                - paragraph [ref=e1259]: 一键生成PPT，复制精美模板
+        - generic [ref=e1260]:
+          - heading "聊 AI聊天助手" [level=2] [ref=e1262]:
+            - generic [ref=e1263]: 聊
+            - text: AI聊天助手
+          - generic [ref=e1264]:
+            - link "Z.ai Z.ai 智谱面向全球推出的AI模型体验平台" [ref=e1265] [cursor=pointer]:
+              - /url: /site/179
+              - img "Z.ai" [ref=e1267]
+              - generic [ref=e1268]:
+                - heading "Z.ai" [level=3] [ref=e1269]
+                - paragraph [ref=e1270]: 智谱面向全球推出的AI模型体验平台
+            - link "MiniMax MiniMax MiniMax推出的AI智能问答助手" [ref=e1271] [cursor=pointer]:
+              - /url: /site/180
+              - img "MiniMax" [ref=e1273]
+              - generic [ref=e1274]:
+                - heading "MiniMax" [level=3] [ref=e1275]
+                - paragraph [ref=e1276]: MiniMax推出的AI智能问答助手
+            - link "LongCat LongCat 美团推出的自研大模型AI对话平台" [ref=e1277] [cursor=pointer]:
+              - /url: /site/181
+              - img "LongCat" [ref=e1279]
+              - generic [ref=e1280]:
+                - heading "LongCat" [level=3] [ref=e1281]
+                - paragraph [ref=e1282]: 美团推出的自研大模型AI对话平台
+            - link "文心一言 文心一言 百度推出的基于文心大模型的AI智能助手" [ref=e1283] [cursor=pointer]:
+              - /url: /site/182
+              - img "文心一言" [ref=e1285]
+              - generic [ref=e1286]:
+                - heading "文心一言" [level=3] [ref=e1287]
+                - paragraph [ref=e1288]: 百度推出的基于文心大模型的AI智能助手
+            - link "智谱清言 智谱清言 智谱推出的全能AI助手" [ref=e1289] [cursor=pointer]:
+              - /url: /site/183
+              - img "智谱清言" [ref=e1291]
+              - generic [ref=e1292]:
+                - heading "智谱清言" [level=3] [ref=e1293]
+                - paragraph [ref=e1294]: 智谱推出的全能AI助手
+            - link "讯飞星火 讯飞星火 AI智能助手，免费PPT生成、深度研究" [ref=e1295] [cursor=pointer]:
+              - /url: /site/184
+              - img "讯飞星火" [ref=e1297]
+              - generic [ref=e1298]:
+                - heading "讯飞星火" [level=3] [ref=e1299]
+                - paragraph [ref=e1300]: AI智能助手，免费PPT生成、深度研究
+            - link "Lorka AI Lorka AI 多模型 AI 聚合对话平台" [ref=e1301] [cursor=pointer]:
+              - /url: /site/185
+              - img "Lorka AI" [ref=e1303]
+              - generic [ref=e1304]:
+                - heading "Lorka AI" [level=3] [ref=e1305]
+                - paragraph [ref=e1306]: 多模型 AI 聚合对话平台
+            - link "问小白 问小白 AI智能助手，支持DeepSeek满血版" [ref=e1307] [cursor=pointer]:
+              - /url: /site/186
+              - img "问小白" [ref=e1309]
+              - generic [ref=e1310]:
+                - heading "问小白" [level=3] [ref=e1311]
+                - paragraph [ref=e1312]: AI智能助手，支持DeepSeek满血版
+            - link "百灵大模型 百灵大模型 蚂蚁集团推出的 Ling-1T 大模型对话体验平台" [ref=e1313] [cursor=pointer]:
+              - /url: /site/187
+              - img "百灵大模型" [ref=e1315]
+              - generic [ref=e1316]:
+                - heading "百灵大模型" [level=3] [ref=e1317]
+                - paragraph [ref=e1318]: 蚂蚁集团推出的 Ling-1T 大模型对话体验平台
+            - link "阶跃AI 阶跃AI 阶跃星辰推出的支持多模态的AI聊天机器人" [ref=e1319] [cursor=pointer]:
+              - /url: /site/189
+              - img "阶跃AI" [ref=e1321]
+              - generic [ref=e1322]:
+                - heading "阶跃AI" [level=3] [ref=e1323]
+                - paragraph [ref=e1324]: 阶跃星辰推出的支持多模态的AI聊天机器人
+            - link "百小应 百小应 百川智能推出的免费AI助手" [ref=e1325] [cursor=pointer]:
+              - /url: /site/190
+              - img "百小应" [ref=e1327]
+              - generic [ref=e1328]:
+                - heading "百小应" [level=3] [ref=e1329]
+                - paragraph [ref=e1330]: 百川智能推出的免费AI助手
+            - link "天工AI 天工AI 昆仑万维推出的AI智能助手" [ref=e1331] [cursor=pointer]:
+              - /url: /site/191
+              - img "天工AI" [ref=e1333]
+              - generic [ref=e1334]:
+                - heading "天工AI" [level=3] [ref=e1335]
+                - paragraph [ref=e1336]: 昆仑万维推出的AI智能助手
+            - link "商量SenseChat 商量SenseChat 商汤科技推出的免费AI聊天助手" [ref=e1337] [cursor=pointer]:
+              - /url: /site/192
+              - img "商量SenseChat" [ref=e1339]
+              - generic [ref=e1340]:
+                - heading "商量SenseChat" [level=3] [ref=e1341]
+                - paragraph [ref=e1342]: 商汤科技推出的免费AI聊天助手
+            - link "Me.bot Me.bot 心识宇宙推出的个性化AI伴侣产品" [ref=e1343] [cursor=pointer]:
+              - /url: /site/193
+              - img "Me.bot" [ref=e1345]
+              - generic [ref=e1346]:
+                - heading "Me.bot" [level=3] [ref=e1347]
+                - paragraph [ref=e1348]: 心识宇宙推出的个性化AI伴侣产品
+            - link "Saylo Saylo AI驱动的故事角色扮演游戏应用，沉浸式的剧本互动体验" [ref=e1349] [cursor=pointer]:
+              - /url: /site/194
+              - img "Saylo" [ref=e1351]
+              - generic [ref=e1352]:
+                - heading "Saylo" [level=3] [ref=e1353]
+                - paragraph [ref=e1354]: AI驱动的故事角色扮演游戏应用，沉浸式的剧本互动体验
+            - link "Poe Poe 问答社区Quora推出的问答机器人工具" [ref=e1355] [cursor=pointer]:
+              - /url: /site/195
+              - img "Poe" [ref=e1357]
+              - generic [ref=e1358]:
+                - heading "Poe" [level=3] [ref=e1359]
+                - paragraph [ref=e1360]: 问答社区Quora推出的问答机器人工具
+            - link "豆包 豆包 智能对话助手，办公创作全能！" [ref=e1361] [cursor=pointer]:
+              - /url: /site/168
+              - img "豆包" [ref=e1363]
+              - generic [ref=e1364]:
+                - heading "豆包" [level=3] [ref=e1365]
+                - paragraph [ref=e1366]: 智能对话助手，办公创作全能！
+            - link "千问 千问 全能AI助手，基于Qwen模型" [ref=e1367] [cursor=pointer]:
+              - /url: /site/169
+              - img "千问" [ref=e1369]
+              - generic [ref=e1370]:
+                - heading "千问" [level=3] [ref=e1371]
+                - paragraph [ref=e1372]: 全能AI助手，基于Qwen模型
+            - link "逗逗AI 逗逗AI AI游戏陪玩，支持原神、黑神话、LOL！" [ref=e1373] [cursor=pointer]:
+              - /url: /site/170
+              - img "逗逗AI" [ref=e1375]
+              - generic [ref=e1376]:
+                - heading "逗逗AI" [level=3] [ref=e1377]
+                - paragraph [ref=e1378]: AI游戏陪玩，支持原神、黑神话、LOL！
+            - link "ChatGPT ChatGPT OpenAI 推出的AI聊天机器人" [ref=e1379] [cursor=pointer]:
+              - /url: /site/171
+              - img "ChatGPT" [ref=e1381]
+              - generic [ref=e1382]:
+                - heading "ChatGPT" [level=3] [ref=e1383]
+                - paragraph [ref=e1384]: OpenAI 推出的AI聊天机器人
+            - link "Claude Claude Anthropic公司推出的对话式AI智能助手" [ref=e1385] [cursor=pointer]:
+              - /url: /site/172
+              - img "Claude" [ref=e1387]
+              - generic [ref=e1388]:
+                - heading "Claude" [level=3] [ref=e1389]
+                - paragraph [ref=e1390]: Anthropic公司推出的对话式AI智能助手
+            - link "Gemini Gemini Google推出的AI聊天对话机器人Gemini" [ref=e1391] [cursor=pointer]:
+              - /url: /site/173
+              - img "Gemini" [ref=e1393]
+              - generic [ref=e1394]:
+                - heading "Gemini" [level=3] [ref=e1395]
+                - paragraph [ref=e1396]: Google推出的AI聊天对话机器人Gemini
+            - link "DeepSeek DeepSeek 幻方量化推出的AI智能助手和开源大模型" [ref=e1397] [cursor=pointer]:
+              - /url: /site/175
+              - img "DeepSeek" [ref=e1399]
+              - generic [ref=e1400]:
+                - heading "DeepSeek" [level=3] [ref=e1401]
+                - paragraph [ref=e1402]: 幻方量化推出的AI智能助手和开源大模型
+            - link "腾讯元宝 腾讯元宝 腾讯推出的免费AI智能助手" [ref=e1403] [cursor=pointer]:
+              - /url: /site/176
+              - img "腾讯元宝" [ref=e1405]
+              - generic [ref=e1406]:
+                - heading "腾讯元宝" [level=3] [ref=e1407]
+                - paragraph [ref=e1408]: 腾讯推出的免费AI智能助手
+            - link "Kimi智能助手 Kimi智能助手 月之暗面推出的AI智能助手" [ref=e1409] [cursor=pointer]:
+              - /url: /site/177
+              - img "Kimi智能助手" [ref=e1411]
+              - generic [ref=e1412]:
+                - heading "Kimi智能助手" [level=3] [ref=e1413]
+                - paragraph [ref=e1414]: 月之暗面推出的AI智能助手
+            - link "Grok Grok 马斯克旗下xAI推出的人工智能助手" [ref=e1415] [cursor=pointer]:
+              - /url: /site/178
+              - img "Grok" [ref=e1417]
+              - generic [ref=e1418]:
+                - heading "Grok" [level=3] [ref=e1419]
+                - paragraph [ref=e1420]: 马斯克旗下xAI推出的人工智能助手
+        - generic [ref=e1421]:
+          - heading "训 AI训练模型" [level=2] [ref=e1423]:
+            - generic [ref=e1424]: 训
+            - text: AI训练模型
+          - generic [ref=e1425]:
+            - link "Nano Banana Nano Banana 谷歌推出的图像生成与编辑模型" [ref=e1426] [cursor=pointer]:
+              - /url: /site/376
+              - img "Nano Banana" [ref=e1428]
+              - generic [ref=e1429]:
+                - heading "Nano Banana" [level=3] [ref=e1430]
+                - paragraph [ref=e1431]: 谷歌推出的图像生成与编辑模型
+            - link "Cherry Studio Cherry Studio 开源全能 AI 客户端助手" [ref=e1432] [cursor=pointer]:
+              - /url: /site/377
+              - img "Cherry Studio" [ref=e1434]
+              - generic [ref=e1435]:
+                - heading "Cherry Studio" [level=3] [ref=e1436]
+                - paragraph [ref=e1437]: 开源全能 AI 客户端助手
+            - link "Ollama Ollama 本地运行Llama和其他大语言模型" [ref=e1438] [cursor=pointer]:
+              - /url: /site/378
+              - img "Ollama" [ref=e1440]
+              - generic [ref=e1441]:
+                - heading "Ollama" [level=3] [ref=e1442]
+                - paragraph [ref=e1443]: 本地运行Llama和其他大语言模型
+            - link "魔搭社区 魔搭社区 阿里达摩院推出的AI模型社区，超过300+开源AI模型" [ref=e1444] [cursor=pointer]:
+              - /url: /site/379
+              - img "魔搭社区" [ref=e1446]
+              - generic [ref=e1447]:
+                - heading "魔搭社区" [level=3] [ref=e1448]
+                - paragraph [ref=e1449]: 阿里达摩院推出的AI模型社区，超过300+开源AI模型
+            - link "豆包大模型 豆包大模型 字节跳动推出的AI大模型家族，包括视频生成、语音视觉、通用语言模型等" [ref=e1450] [cursor=pointer]:
+              - /url: /site/380
+              - img "豆包大模型" [ref=e1452]
+              - generic [ref=e1453]:
+                - heading "豆包大模型" [level=3] [ref=e1454]
+                - paragraph [ref=e1455]: 字节跳动推出的AI大模型家族，包括视频生成、语音视觉、通用语言模型等
+            - link "Dataify Dataify 数据采集API、高质量数据集、代理资源服务一体化供应" [ref=e1456] [cursor=pointer]:
+              - /url: /site/381
+              - img "Dataify" [ref=e1458]
+              - generic [ref=e1459]:
+                - heading "Dataify" [level=3] [ref=e1460]
+                - paragraph [ref=e1461]: 数据采集API、高质量数据集、代理资源服务一体化供应
+            - link "无阶未来 无阶未来 AI应用与弹性算网平台" [ref=e1462] [cursor=pointer]:
+              - /url: /site/382
+              - img "无阶未来" [ref=e1464]
+              - generic [ref=e1465]:
+                - heading "无阶未来" [level=3] [ref=e1466]
+                - paragraph [ref=e1467]: AI应用与弹性算网平台
+            - link "AutoGPT AutoGPT 爆火的实现GPT-4完全自主的实验性开源项目，GitHub超10万星" [ref=e1468] [cursor=pointer]:
+              - /url: /site/383
+              - img "AutoGPT" [ref=e1470]
+              - generic [ref=e1471]:
+                - heading "AutoGPT" [level=3] [ref=e1472]
+                - paragraph [ref=e1473]: 爆火的实现GPT-4完全自主的实验性开源项目，GitHub超10万星
+            - link "Jan Jan 本地运行大模型并进行AI对话的工具，免费开源" [ref=e1474] [cursor=pointer]:
+              - /url: /site/384
+              - img "Jan" [ref=e1476]
+              - generic [ref=e1477]:
+                - heading "Jan" [level=3] [ref=e1478]
+                - paragraph [ref=e1479]: 本地运行大模型并进行AI对话的工具，免费开源
+            - link "AgentGPT AgentGPT 在浏览器中组装、配置和部署自主人工智能的开源项目" [ref=e1480] [cursor=pointer]:
+              - /url: /site/385
+              - img "AgentGPT" [ref=e1482]
+              - generic [ref=e1483]:
+                - heading "AgentGPT" [level=3] [ref=e1484]
+                - paragraph [ref=e1485]: 在浏览器中组装、配置和部署自主人工智能的开源项目
+            - link "OpenBMB OpenBMB 清华团队支持发起的大规模预训练语言模型库与相关工具" [ref=e1486] [cursor=pointer]:
+              - /url: /site/386
+              - img "OpenBMB" [ref=e1488]
+              - generic [ref=e1489]:
+                - heading "OpenBMB" [level=3] [ref=e1490]
+                - paragraph [ref=e1491]: 清华团队支持发起的大规模预训练语言模型库与相关工具
+            - link "Llama 3 Llama 3 Meta最新开源推出的新一代大模型" [ref=e1492] [cursor=pointer]:
+              - /url: /site/387
+              - img "Llama 3" [ref=e1494]
+              - generic [ref=e1495]:
+                - heading "Llama 3" [level=3] [ref=e1496]
+                - paragraph [ref=e1497]: Meta最新开源推出的新一代大模型
+            - link "Gemma Gemma 谷歌推出的新一代轻量级开放模型" [ref=e1498] [cursor=pointer]:
+              - /url: /site/388
+              - img "Gemma" [ref=e1500]
+              - generic [ref=e1501]:
+                - heading "Gemma" [level=3] [ref=e1502]
+                - paragraph [ref=e1503]: 谷歌推出的新一代轻量级开放模型
+            - link "腾讯混元大模型 腾讯混元大模型 腾讯研发的大语言模型，具备强大的中文创作能力，复杂语境下的逻辑推理能力，以及可靠的任务执行能力" [ref=e1504] [cursor=pointer]:
+              - /url: /site/389
+              - img "腾讯混元大模型" [ref=e1506]
+              - generic [ref=e1507]:
+                - heading "腾讯混元大模型" [level=3] [ref=e1508]
+                - paragraph [ref=e1509]: 腾讯研发的大语言模型，具备强大的中文创作能力，复杂语境下的逻辑推理能力，以及可靠的任务执行能力
+            - link "GPT-4 GPT-4 OpenAI旗下最新的GPT-4模型" [ref=e1510] [cursor=pointer]:
+              - /url: /site/390
+              - img "GPT-4" [ref=e1512]
+              - generic [ref=e1513]:
+                - heading "GPT-4" [level=3] [ref=e1514]
+                - paragraph [ref=e1515]: OpenAI旗下最新的GPT-4模型
+            - link "DALL·E 3 DALL·E 3 OpenAI旗下最新的图像生成模型" [ref=e1516] [cursor=pointer]:
+              - /url: /site/391
+              - img "DALL·E 3" [ref=e1518]
+              - generic [ref=e1519]:
+                - heading "DALL·E 3" [level=3] [ref=e1520]
+                - paragraph [ref=e1521]: OpenAI旗下最新的图像生成模型
+            - link "文心大模型 文心大模型 百度推出的产业级知识增强大模型" [ref=e1522] [cursor=pointer]:
+              - /url: /site/392
+              - img "文心大模型" [ref=e1524]
+              - generic [ref=e1525]:
+                - heading "文心大模型" [level=3] [ref=e1526]
+                - paragraph [ref=e1527]: 百度推出的产业级知识增强大模型
+            - link "LLaMA LLaMA Meta（Facebook）推出的AI大语言模型" [ref=e1528] [cursor=pointer]:
+              - /url: /site/393
+              - img "LLaMA" [ref=e1530]
+              - generic [ref=e1531]:
+                - heading "LLaMA" [level=3] [ref=e1532]
+                - paragraph [ref=e1533]: Meta（Facebook）推出的AI大语言模型
+            - link "悟道 悟道 智源“悟道”大模型，中国首个+世界最大人工智能大模型" [ref=e1534] [cursor=pointer]:
+              - /url: /site/394
+              - img "悟道" [ref=e1536]
+              - generic [ref=e1537]:
+                - heading "悟道" [level=3] [ref=e1538]
+                - paragraph [ref=e1539]: 智源“悟道”大模型，中国首个+世界最大人工智能大模型
+            - link "MiracleVision奇想智能 MiracleVision奇想智能 美图推出的AI视觉大模型，支持AI图像、设计和视频创作" [ref=e1540] [cursor=pointer]:
+              - /url: /site/395
+              - img "MiracleVision奇想智能" [ref=e1542]
+              - generic [ref=e1543]:
+                - heading "MiracleVision奇想智能" [level=3] [ref=e1544]
+                - paragraph [ref=e1545]: 美图推出的AI视觉大模型，支持AI图像、设计和视频创作
+            - link "Gradio Gradio 开源的搭建机器学习模型UI界面的Python库" [ref=e1546] [cursor=pointer]:
+              - /url: /site/396
+              - img "Gradio" [ref=e1548]
+              - generic [ref=e1549]:
+                - heading "Gradio" [level=3] [ref=e1550]
+                - paragraph [ref=e1551]: 开源的搭建机器学习模型UI界面的Python库
+            - link "DeepFloyd IF DeepFloyd IF StabilityAI旗下的DeepFloyd团队推出的图片生成模型" [ref=e1552] [cursor=pointer]:
+              - /url: /site/397
+              - img "DeepFloyd IF" [ref=e1554]
+              - generic [ref=e1555]:
+                - heading "DeepFloyd IF" [level=3] [ref=e1556]
+                - paragraph [ref=e1557]: StabilityAI旗下的DeepFloyd团队推出的图片生成模型
+            - link "Cohere Cohere 构建AI产品的大语言模型平台" [ref=e1558] [cursor=pointer]:
+              - /url: /site/398
+              - img "Cohere" [ref=e1560]
+              - generic [ref=e1561]:
+                - heading "Cohere" [level=3] [ref=e1562]
+                - paragraph [ref=e1563]: 构建AI产品的大语言模型平台
+            - link "序列猴子 序列猴子 出门问问推出的一款超大规模的语言模型" [ref=e1564] [cursor=pointer]:
+              - /url: /site/399
+              - img "序列猴子" [ref=e1566]
+              - generic [ref=e1567]:
+                - heading "序列猴子" [level=3] [ref=e1568]
+                - paragraph [ref=e1569]: 出门问问推出的一款超大规模的语言模型
+            - link "讯飞星辰MaaS 讯飞星辰MaaS Coding Plan套餐首购特惠低至3.9元/月" [ref=e1570] [cursor=pointer]:
+              - /url: /site/247
+              - img "讯飞星辰MaaS" [ref=e1572]
+              - generic [ref=e1573]:
+                - heading "讯飞星辰MaaS" [level=3] [ref=e1574]
+                - paragraph [ref=e1575]: Coding Plan套餐首购特惠低至3.9元/月
+            - link "书生大模型 书生大模型 上海人工智能实验室推出的系列AI模型" [ref=e1576] [cursor=pointer]:
+              - /url: /site/188
+              - img "书生大模型" [ref=e1578]
+              - generic [ref=e1579]:
+                - heading "书生大模型" [level=3] [ref=e1580]
+                - paragraph [ref=e1581]: 上海人工智能实验室推出的系列AI模型
+        - generic [ref=e1582]:
+          - heading "开 AI开发平台" [level=2] [ref=e1584]:
+            - generic [ref=e1585]: 开
+            - text: AI开发平台
+          - generic [ref=e1586]:
+            - link "灵光 灵光 蚂蚁推出的AI对话与应用生成平台" [ref=e1587] [cursor=pointer]:
+              - /url: /site/269
+              - img "灵光" [ref=e1589]
+              - generic [ref=e1590]:
+                - heading "灵光" [level=3] [ref=e1591]
+                - paragraph [ref=e1592]: 蚂蚁推出的AI对话与应用生成平台
+            - link "英博云AI算力 英博云AI算力 英博数科推出的GPU智算服务云平台" [ref=e1593] [cursor=pointer]:
+              - /url: /site/270
+              - img "英博云AI算力" [ref=e1595]
+              - generic [ref=e1596]:
+                - heading "英博云AI算力" [level=3] [ref=e1597]
+                - paragraph [ref=e1598]: 英博数科推出的GPU智算服务云平台
+            - link "汇智Token工场 汇智Token工场 大模型API聚合与极速推理云平台" [ref=e1599] [cursor=pointer]:
+              - /url: /site/271
+              - img "汇智Token工场" [ref=e1601]
+              - generic [ref=e1602]:
+                - heading "汇智Token工场" [level=3] [ref=e1603]
+                - paragraph [ref=e1604]: 大模型API聚合与极速推理云平台
+            - link "BigModel BigModel 智谱推出的企业级大模型开放平台（MaaS）" [ref=e1605] [cursor=pointer]:
+              - /url: /site/248
+              - img "BigModel" [ref=e1607]
+              - generic [ref=e1608]:
+                - heading "BigModel" [level=3] [ref=e1609]
+                - paragraph [ref=e1610]: 智谱推出的企业级大模型开放平台（MaaS）
+            - link "阿里云百炼 阿里云百炼 一站式大模型开发与应用构建平台" [ref=e1611] [cursor=pointer]:
+              - /url: /site/249
+              - img "阿里云百炼" [ref=e1613]
+              - generic [ref=e1614]:
+                - heading "阿里云百炼" [level=3] [ref=e1615]
+                - paragraph [ref=e1616]: 一站式大模型开发与应用构建平台
+            - link "Coze Coze 海量AI智能体免费用，一键复制同款" [ref=e1617] [cursor=pointer]:
+              - /url: /site/250
+              - img "Coze" [ref=e1619]
+              - generic [ref=e1620]:
+                - heading "Coze" [level=3] [ref=e1621]
+                - paragraph [ref=e1622]: 海量AI智能体免费用，一键复制同款
+            - link "方舟 Agent Plan 方舟 Agent Plan 火山引擎推出的业界首个 Agent 套餐" [ref=e1623] [cursor=pointer]:
+              - /url: /site/251
+              - img "方舟 Agent Plan" [ref=e1625]
+              - generic [ref=e1626]:
+                - heading "方舟 Agent Plan" [level=3] [ref=e1627]
+                - paragraph [ref=e1628]: 火山引擎推出的业界首个 Agent 套餐
+            - link "ZenMux ZenMux 全球首个带保险赔付机制的企业级大模型聚合平台" [ref=e1629] [cursor=pointer]:
+              - /url: /site/252
+              - img "ZenMux" [ref=e1631]
+              - generic [ref=e1632]:
+                - heading "ZenMux" [level=3] [ref=e1633]
+                - paragraph [ref=e1634]: 全球首个带保险赔付机制的企业级大模型聚合平台
+            - link "Google AI Studio Google AI Studio 免费体验和测试 Google 最新的 AI 模型" [ref=e1635] [cursor=pointer]:
+              - /url: /site/253
+              - img "Google AI Studio" [ref=e1637]
+              - generic [ref=e1638]:
+                - heading "Google AI Studio" [level=3] [ref=e1639]
+                - paragraph [ref=e1640]: 免费体验和测试 Google 最新的 AI 模型
+            - link "FastGPT FastGPT 免费AI工作流搭建工具 自动化提高效率" [ref=e1641] [cursor=pointer]:
+              - /url: /site/254
+              - img "FastGPT" [ref=e1643]
+              - generic [ref=e1644]:
+                - heading "FastGPT" [level=3] [ref=e1645]
+                - paragraph [ref=e1646]: 免费AI工作流搭建工具 自动化提高效率
+            - link "n8n n8n 开源的低代码AI工作流自动化工具" [ref=e1647] [cursor=pointer]:
+              - /url: /site/255
+              - img "n8n" [ref=e1649]
+              - generic [ref=e1650]:
+                - heading "n8n" [level=3] [ref=e1651]
+                - paragraph [ref=e1652]: 开源的低代码AI工作流自动化工具
+            - link "千问云 千问云 阿里云推出的全新MaaS模型服务平台" [ref=e1653] [cursor=pointer]:
+              - /url: /site/256
+              - img "千问云" [ref=e1655]
+              - generic [ref=e1656]:
+                - heading "千问云" [level=3] [ref=e1657]
+                - paragraph [ref=e1658]: 阿里云推出的全新MaaS模型服务平台
+            - link "秒悟Meoo 秒悟Meoo 阿里推出的首个对话式AI开发工具" [ref=e1659] [cursor=pointer]:
+              - /url: /site/257
+              - img "秒悟Meoo" [ref=e1661]
+              - generic [ref=e1662]:
+                - heading "秒悟Meoo" [level=3] [ref=e1663]
+                - paragraph [ref=e1664]: 阿里推出的首个对话式AI开发工具
+            - link "万小智 万小智 阿里云推出的企业级 AI 建站平台" [ref=e1665] [cursor=pointer]:
+              - /url: /site/258
+              - img "万小智" [ref=e1667]
+              - generic [ref=e1668]:
+                - heading "万小智" [level=3] [ref=e1669]
+                - paragraph [ref=e1670]: 阿里云推出的企业级 AI 建站平台
+            - link "麦芽AI 麦芽AI 多范式兼容，全流程 AI 项目开发" [ref=e1671] [cursor=pointer]:
+              - /url: /site/259
+              - img "麦芽AI" [ref=e1673]
+              - generic [ref=e1674]:
+                - heading "麦芽AI" [level=3] [ref=e1675]
+                - paragraph [ref=e1676]: 多范式兼容，全流程 AI 项目开发
+            - link "Trickle AI Trickle AI 一站式无代码 AI 开发平台" [ref=e1677] [cursor=pointer]:
+              - /url: /site/260
+              - img "Trickle AI" [ref=e1679]
+              - generic [ref=e1680]:
+                - heading "Trickle AI" [level=3] [ref=e1681]
+                - paragraph [ref=e1682]: 一站式无代码 AI 开发平台
+            - link "OpenRouter OpenRouter AI 模型 API 聚合平台，一个接口调用400多个模型" [ref=e1683] [cursor=pointer]:
+              - /url: /site/261
+              - img "OpenRouter" [ref=e1685]
+              - generic [ref=e1686]:
+                - heading "OpenRouter" [level=3] [ref=e1687]
+                - paragraph [ref=e1688]: AI 模型 API 聚合平台，一个接口调用400多个模型
+            - link "SiliconFlow SiliconFlow 生成式AI计算基础设施平台" [ref=e1689] [cursor=pointer]:
+              - /url: /site/262
+              - img "SiliconFlow" [ref=e1691]
+              - generic [ref=e1692]:
+                - heading "SiliconFlow" [level=3] [ref=e1693]
+                - paragraph [ref=e1694]: 生成式AI计算基础设施平台
+            - link "OfoxAI OfoxAI 统一大模型 API 聚合网关" [ref=e1695] [cursor=pointer]:
+              - /url: /site/263
+              - img "OfoxAI" [ref=e1697]
+              - generic [ref=e1698]:
+                - heading "OfoxAI" [level=3] [ref=e1699]
+                - paragraph [ref=e1700]: 统一大模型 API 聚合网关
+            - link "WorldClaw WorldClaw World Liberty Financial 团队推出的 AI 模型聚合平台" [ref=e1701] [cursor=pointer]:
+              - /url: /site/264
+              - img "WorldClaw" [ref=e1703]
+              - generic [ref=e1704]:
+                - heading "WorldClaw" [level=3] [ref=e1705]
+                - paragraph [ref=e1706]: World Liberty Financial 团队推出的 AI 模型聚合平台
+            - link "TokenDance TokenDance 观猹团队推出的一站式大模型 API 调用平台" [ref=e1707] [cursor=pointer]:
+              - /url: /site/265
+              - img "TokenDance" [ref=e1709]
+              - generic [ref=e1710]:
+                - heading "TokenDance" [level=3] [ref=e1711]
+                - paragraph [ref=e1712]: 观猹团队推出的一站式大模型 API 调用平台
+            - link "MoMA MoMA 中国移动推出的国内首个开放普惠大模型聚合平台" [ref=e1713] [cursor=pointer]:
+              - /url: /site/266
+              - img "MoMA" [ref=e1715]
+              - generic [ref=e1716]:
+                - heading "MoMA" [level=3] [ref=e1717]
+                - paragraph [ref=e1718]: 中国移动推出的国内首个开放普惠大模型聚合平台
+            - link "博查万象 博查万象 博查多模态混合搜索和语义排序API开放平台" [ref=e1719] [cursor=pointer]:
+              - /url: /site/267
+              - img "博查万象" [ref=e1721]
+              - generic [ref=e1722]:
+                - heading "博查万象" [level=3] [ref=e1723]
+                - paragraph [ref=e1724]: 博查多模态混合搜索和语义排序API开放平台
+            - link "B.AI B.AI 基于区块链构建的大模型API聚合平台" [ref=e1725] [cursor=pointer]:
+              - /url: /site/268
+              - img "B.AI" [ref=e1727]
+              - generic [ref=e1728]:
+                - heading "B.AI" [level=3] [ref=e1729]
+                - paragraph [ref=e1730]: 基于区块链构建的大模型API聚合平台
+            - link "秒哒 秒哒 无代码AI应用开发平台，一句话做应用" [ref=e1731] [cursor=pointer]:
+              - /url: /site/224
+              - img "秒哒" [ref=e1733]
+              - generic [ref=e1734]:
+                - heading "秒哒" [level=3] [ref=e1735]
+                - paragraph [ref=e1736]: 无代码AI应用开发平台，一句话做应用
+            - link "码上飞 码上飞 一句话生成微信小程序、APP、H5网页" [ref=e1737] [cursor=pointer]:
+              - /url: /site/204
+              - img "码上飞" [ref=e1739]
+              - generic [ref=e1740]:
+                - heading "码上飞" [level=3] [ref=e1741]
+                - paragraph [ref=e1742]: 一句话生成微信小程序、APP、H5网页
+            - link "扣子 扣子 免费全能的AI办公智能体" [ref=e1743] [cursor=pointer]:
+              - /url: /site/208
+              - img "扣子" [ref=e1745]
+              - generic [ref=e1746]:
+                - heading "扣子" [level=3] [ref=e1747]
+                - paragraph [ref=e1748]: 免费全能的AI办公智能体
+        - generic [ref=e1749]:
+          - heading "编 AI编程工具" [level=2] [ref=e1751]:
+            - generic [ref=e1752]: 编
+            - text: AI编程工具
+          - generic [ref=e1753]:
+            - link "Warp Code Warp Code Warp推出的AI编程工具" [ref=e1754] [cursor=pointer]:
+              - /url: /site/246
+              - img "Warp Code" [ref=e1756]
+              - generic [ref=e1757]:
+                - heading "Warp Code" [level=3] [ref=e1758]
+                - paragraph [ref=e1759]: Warp推出的AI编程工具
+            - link "TRAE TRAE 字节跳动推出的 AI IDE 编程工具" [ref=e1760] [cursor=pointer]:
+              - /url: /site/223
+              - img "TRAE" [ref=e1762]
+              - generic [ref=e1763]:
+                - heading "TRAE" [level=3] [ref=e1764]
+                - paragraph [ref=e1765]: 字节跳动推出的 AI IDE 编程工具
+            - link "代码小浣熊 代码小浣熊 商汤科技推出的免费AI编程助手" [ref=e1766] [cursor=pointer]:
+              - /url: /site/225
+              - img "代码小浣熊" [ref=e1768]
+              - generic [ref=e1769]:
+                - heading "代码小浣熊" [level=3] [ref=e1770]
+                - paragraph [ref=e1771]: 商汤科技推出的免费AI编程助手
+            - link "Codex Codex OpenAI 推出的 AI 编程智能体" [ref=e1772] [cursor=pointer]:
+              - /url: /site/226
+              - img "Codex" [ref=e1774]
+              - generic [ref=e1775]:
+                - heading "Codex" [level=3] [ref=e1776]
+                - paragraph [ref=e1777]: OpenAI 推出的 AI 编程智能体
+            - link "Claude Code Claude Code Anthropic 推出的AI编程工具" [ref=e1778] [cursor=pointer]:
+              - /url: /site/227
+              - img "Claude Code" [ref=e1780]
+              - generic [ref=e1781]:
+                - heading "Claude Code" [level=3] [ref=e1782]
+                - paragraph [ref=e1783]: Anthropic 推出的AI编程工具
+            - link "Qoder Qoder 阿里巴巴推出的 AI Agentic 编程工具" [ref=e1784] [cursor=pointer]:
+              - /url: /site/228
+              - img "Qoder" [ref=e1786]
+              - generic [ref=e1787]:
+                - heading "Qoder" [level=3] [ref=e1788]
+                - paragraph [ref=e1789]: 阿里巴巴推出的 AI Agentic 编程工具
+            - link "OpenCode OpenCode 开源 AI 编程工具 ， Claude Code 最佳平替" [ref=e1790] [cursor=pointer]:
+              - /url: /site/229
+              - img "OpenCode" [ref=e1792]
+              - generic [ref=e1793]:
+                - heading "OpenCode" [level=3] [ref=e1794]
+                - paragraph [ref=e1795]: 开源 AI 编程工具 ， Claude Code 最佳平替
+            - link "Kilo Code Kilo Code 开源的 AI 编程扩展插件" [ref=e1796] [cursor=pointer]:
+              - /url: /site/230
+              - img "Kilo Code" [ref=e1798]
+              - generic [ref=e1799]:
+                - heading "Kilo Code" [level=3] [ref=e1800]
+                - paragraph [ref=e1801]: 开源的 AI 编程扩展插件
+            - link "Google Antigravity Google Antigravity 谷歌推出的 AI IDE 编程智能体" [ref=e1802] [cursor=pointer]:
+              - /url: /site/231
+              - img "Google Antigravity" [ref=e1804]
+              - generic [ref=e1805]:
+                - heading "Google Antigravity" [level=3] [ref=e1806]
+                - paragraph [ref=e1807]: 谷歌推出的 AI IDE 编程智能体
+            - link "Kiro Kiro 亚马逊公司推出的 AI IDE" [ref=e1808] [cursor=pointer]:
+              - /url: /site/232
+              - img "Kiro" [ref=e1810]
+              - generic [ref=e1811]:
+                - heading "Kiro" [level=3] [ref=e1812]
+                - paragraph [ref=e1813]: 亚马逊公司推出的 AI IDE
+            - link "Cursor Cursor AI代码编辑器，快速进行编程和软件开发" [ref=e1814] [cursor=pointer]:
+              - /url: /site/233
+              - img "Cursor" [ref=e1816]
+              - generic [ref=e1817]:
+                - heading "Cursor" [level=3] [ref=e1818]
+                - paragraph [ref=e1819]: AI代码编辑器，快速进行编程和软件开发
+            - link "YouWare YouWare 一站式 AI 编程社区与开发平台" [ref=e1820] [cursor=pointer]:
+              - /url: /site/234
+              - img "YouWare" [ref=e1822]
+              - generic [ref=e1823]:
+                - heading "YouWare" [level=3] [ref=e1824]
+                - paragraph [ref=e1825]: 一站式 AI 编程社区与开发平台
+            - link "Zcode Zcode 智谱推出的轻量级AI IDE编程工具" [ref=e1826] [cursor=pointer]:
+              - /url: /site/235
+              - img "Zcode" [ref=e1828]
+              - generic [ref=e1829]:
+                - heading "Zcode" [level=3] [ref=e1830]
+                - paragraph [ref=e1831]: 智谱推出的轻量级AI IDE编程工具
+            - link "CodeBuddy IDE CodeBuddy IDE 腾讯推出的全栈开发AI IDE" [ref=e1832] [cursor=pointer]:
+              - /url: /site/236
+              - img "CodeBuddy IDE" [ref=e1834]
+              - generic [ref=e1835]:
+                - heading "CodeBuddy IDE" [level=3] [ref=e1836]
+                - paragraph [ref=e1837]: 腾讯推出的全栈开发AI IDE
+            - link "Lovable Lovable 全栈AI编程工具，一句话构建网站应用" [ref=e1838] [cursor=pointer]:
+              - /url: /site/237
+              - img "Lovable" [ref=e1840]
+              - generic [ref=e1841]:
+                - heading "Lovable" [level=3] [ref=e1842]
+                - paragraph [ref=e1843]: 全栈AI编程工具，一句话构建网站应用
+            - link "CatPaw CatPaw 美团推出的 AI IDE 编程工具" [ref=e1844] [cursor=pointer]:
+              - /url: /site/238
+              - img "CatPaw" [ref=e1846]
+              - generic [ref=e1847]:
+                - heading "CatPaw" [level=3] [ref=e1848]
+                - paragraph [ref=e1849]: 美团推出的 AI IDE 编程工具
+            - link "Augment Code Augment Code AI编程辅助工具，专为大型代码库设计" [ref=e1850] [cursor=pointer]:
+              - /url: /site/239
+              - img "Augment Code" [ref=e1852]
+              - generic [ref=e1853]:
+                - heading "Augment Code" [level=3] [ref=e1854]
+                - paragraph [ref=e1855]: AI编程辅助工具，专为大型代码库设计
+            - link "MonkeyCode MonkeyCode 长亭科技开源的 AI 编程助手与企业级开发平台" [ref=e1856] [cursor=pointer]:
+              - /url: /site/240
+              - img "MonkeyCode" [ref=e1858]
+              - generic [ref=e1859]:
+                - heading "MonkeyCode" [level=3] [ref=e1860]
+                - paragraph [ref=e1861]: 长亭科技开源的 AI 编程助手与企业级开发平台
+            - link "iFlow CLI iFlow CLI 心流AI推出的免费终端 AI 智能体" [ref=e1862] [cursor=pointer]:
+              - /url: /site/241
+              - img "iFlow CLI" [ref=e1864]
+              - generic [ref=e1865]:
+                - heading "iFlow CLI" [level=3] [ref=e1866]
+                - paragraph [ref=e1867]: 心流AI推出的免费终端 AI 智能体
+            - link "通义灵码 通义灵码 阿里推出的免费AI编程工具，基于通义大模型" [ref=e1868] [cursor=pointer]:
+              - /url: /site/242
+              - img "通义灵码" [ref=e1870]
+              - generic [ref=e1871]:
+                - heading "通义灵码" [level=3] [ref=e1872]
+                - paragraph [ref=e1873]: 阿里推出的免费AI编程工具，基于通义大模型
+            - link "GitHub Copilot GitHub Copilot GitHub推出的AI编程工具" [ref=e1874] [cursor=pointer]:
+              - /url: /site/243
+              - img "GitHub Copilot" [ref=e1876]
+              - generic [ref=e1877]:
+                - heading "GitHub Copilot" [level=3] [ref=e1878]
+                - paragraph [ref=e1879]: GitHub推出的AI编程工具
+            - link "InfCode InfCode 词元无限推出的企业级AI编程工具" [ref=e1880] [cursor=pointer]:
+              - /url: /site/244
+              - img "InfCode" [ref=e1882]
+              - generic [ref=e1883]:
+                - heading "InfCode" [level=3] [ref=e1884]
+                - paragraph [ref=e1885]: 词元无限推出的企业级AI编程工具
+            - link "CodeFlicker CodeFlicker 快手推出的AI原生IDE编程工具" [ref=e1886] [cursor=pointer]:
+              - /url: /site/245
+              - img "CodeFlicker" [ref=e1888]
+              - generic [ref=e1889]:
+                - heading "CodeFlicker" [level=3] [ref=e1890]
+                - paragraph [ref=e1891]: 快手推出的AI原生IDE编程工具
+        - generic [ref=e1892]:
+          - heading "搜 AI搜索引擎" [level=2] [ref=e1894]:
+            - generic [ref=e1895]: 搜
+            - text: AI搜索引擎
+          - generic [ref=e1896]:
+            - link "夸克AI 夸克AI 集AI搜索、网盘、文档、创作等功能于一体的应用" [ref=e1897] [cursor=pointer]:
+              - /url: /site/324
+              - img "夸克AI" [ref=e1899]
+              - generic [ref=e1900]:
+                - heading "夸克AI" [level=3] [ref=e1901]
+                - paragraph [ref=e1902]: 集AI搜索、网盘、文档、创作等功能于一体的应用
+            - link "Perplexity Perplexity AI搜索引擎与深度研究工具" [ref=e1903] [cursor=pointer]:
+              - /url: /site/325
+              - img "Perplexity" [ref=e1905]
+              - generic [ref=e1906]:
+                - heading "Perplexity" [level=3] [ref=e1907]
+                - paragraph [ref=e1908]: AI搜索引擎与深度研究工具
+            - link "玻尔 玻尔 新一代科研知识库与AI学术搜索平台" [ref=e1909] [cursor=pointer]:
+              - /url: /site/326
+              - img "玻尔" [ref=e1911]
+              - generic [ref=e1912]:
+                - heading "玻尔" [level=3] [ref=e1913]
+                - paragraph [ref=e1914]: 新一代科研知识库与AI学术搜索平台
+            - link "SearchGPT SearchGPT OpenAI最新推出的AI搜索引擎" [ref=e1915] [cursor=pointer]:
+              - /url: /site/327
+              - img "SearchGPT" [ref=e1917]
+              - generic [ref=e1918]:
+                - heading "SearchGPT" [level=3] [ref=e1919]
+                - paragraph [ref=e1920]: OpenAI最新推出的AI搜索引擎
+            - link "AMiner AMiner 智谱AI推出的大模型学术平台" [ref=e1921] [cursor=pointer]:
+              - /url: /site/328
+              - img "AMiner" [ref=e1923]
+              - generic [ref=e1924]:
+                - heading "AMiner" [level=3] [ref=e1925]
+                - paragraph [ref=e1926]: 智谱AI推出的大模型学术平台
+            - link "心流 心流 阿里旗下推出的AI搜索助手" [ref=e1927] [cursor=pointer]:
+              - /url: /site/329
+              - img "心流" [ref=e1929]
+              - generic [ref=e1930]:
+                - heading "心流" [level=3] [ref=e1931]
+                - paragraph [ref=e1932]: 阿里旗下推出的AI搜索助手
+            - link "Devv Devv 面向程序员的新一代AI搜索引擎" [ref=e1933] [cursor=pointer]:
+              - /url: /site/330
+              - img "Devv" [ref=e1935]
+              - generic [ref=e1936]:
+                - heading "Devv" [level=3] [ref=e1937]
+                - paragraph [ref=e1938]: 面向程序员的新一代AI搜索引擎
+            - link "知乎直答 知乎直答 知乎推出的AI搜索引擎，直达问题答案" [ref=e1939] [cursor=pointer]:
+              - /url: /site/331
+              - img "知乎直答" [ref=e1941]
+              - generic [ref=e1942]:
+                - heading "知乎直答" [level=3] [ref=e1943]
+                - paragraph [ref=e1944]: 知乎推出的AI搜索引擎，直达问题答案
+            - link "纳米AI 纳米AI 360推出的新一代超级AI搜索工具" [ref=e1945] [cursor=pointer]:
+              - /url: /site/332
+              - img "纳米AI" [ref=e1947]
+              - generic [ref=e1948]:
+                - heading "纳米AI" [level=3] [ref=e1949]
+                - paragraph [ref=e1950]: 360推出的新一代超级AI搜索工具
+            - link "百度AI探索版 百度AI探索版 百度推出的深度AI搜索引擎" [ref=e1951] [cursor=pointer]:
+              - /url: /site/333
+              - img "百度AI探索版" [ref=e1953]
+              - generic [ref=e1954]:
+                - heading "百度AI探索版" [level=3] [ref=e1955]
+                - paragraph [ref=e1956]: 百度推出的深度AI搜索引擎
+            - link "Felo Felo 免费AI智能搜索引擎，支持社交联网搜索和多语种问答结果" [ref=e1957] [cursor=pointer]:
+              - /url: /site/334
+              - img "Felo" [ref=e1959]
+              - generic [ref=e1960]:
+                - heading "Felo" [level=3] [ref=e1961]
+                - paragraph [ref=e1962]: 免费AI智能搜索引擎，支持社交联网搜索和多语种问答结果
+            - link "天工AI搜索 天工AI搜索 昆仑万维最新推出的结合大模型的AI搜索引擎" [ref=e1963] [cursor=pointer]:
+              - /url: /site/335
+              - img "天工AI搜索" [ref=e1965]
+              - generic [ref=e1966]:
+                - heading "天工AI搜索" [level=3] [ref=e1967]
+                - paragraph [ref=e1968]: 昆仑万维最新推出的结合大模型的AI搜索引擎
+            - link "Exa AI Exa AI 专门为AI模型设计的搜索引擎平台" [ref=e1969] [cursor=pointer]:
+              - /url: /site/336
+              - img "Exa AI" [ref=e1971]
+              - generic [ref=e1972]:
+                - heading "Exa AI" [level=3] [ref=e1973]
+                - paragraph [ref=e1974]: 专门为AI模型设计的搜索引擎平台
+            - link "博查AI搜索 博查AI搜索 支持多模型的AI搜索引擎" [ref=e1975] [cursor=pointer]:
+              - /url: /site/337
+              - img "博查AI搜索" [ref=e1977]
+              - generic [ref=e1978]:
+                - heading "博查AI搜索" [level=3] [ref=e1979]
+                - paragraph [ref=e1980]: 支持多模型的AI搜索引擎
+            - link "WisPaper WisPaper 复旦团队推出的 AI 学术搜索工具" [ref=e1981] [cursor=pointer]:
+              - /url: /site/338
+              - img "WisPaper" [ref=e1983]
+              - generic [ref=e1984]:
+                - heading "WisPaper" [level=3] [ref=e1985]
+                - paragraph [ref=e1986]: 复旦团队推出的 AI 学术搜索工具
+            - link "CuspAI CuspAI 剑桥大学推出的材料学专业AI搜索工具" [ref=e1987] [cursor=pointer]:
+              - /url: /site/339
+              - img "CuspAI" [ref=e1989]
+              - generic [ref=e1990]:
+                - heading "CuspAI" [level=3] [ref=e1991]
+                - paragraph [ref=e1992]: 剑桥大学推出的材料学专业AI搜索工具
+            - link "SheepGeo SheepGeo 国内首个AI GEO（生成式引擎优化）分析平台" [ref=e1993] [cursor=pointer]:
+              - /url: /site/340
+              - img "SheepGeo" [ref=e1995]
+              - generic [ref=e1996]:
+                - heading "SheepGeo" [level=3] [ref=e1997]
+                - paragraph [ref=e1998]: 国内首个AI GEO（生成式引擎优化）分析平台
+            - link "博简智慧专利 博简智慧专利 AI专利查新检索与撰写平台" [ref=e1999] [cursor=pointer]:
+              - /url: /site/341
+              - img "博简智慧专利" [ref=e2001]
+              - generic [ref=e2002]:
+                - heading "博简智慧专利" [level=3] [ref=e2003]
+                - paragraph [ref=e2004]: AI专利查新检索与撰写平台
+            - link "链企AI 链企AI 链企智能推出的AI商业搜索和AI标书写作工具" [ref=e2005] [cursor=pointer]:
+              - /url: /site/342
+              - img "链企AI" [ref=e2007]
+              - generic [ref=e2008]:
+                - heading "链企AI" [level=3] [ref=e2009]
+                - paragraph [ref=e2010]: 链企智能推出的AI商业搜索和AI标书写作工具
+            - link "问问小宇宙 问问小宇宙 小宇宙推出的AI搜索产品" [ref=e2011] [cursor=pointer]:
+              - /url: /site/343
+              - img "问问小宇宙" [ref=e2013]
+              - generic [ref=e2014]:
+                - heading "问问小宇宙" [level=3] [ref=e2015]
+                - paragraph [ref=e2016]: 小宇宙推出的AI搜索产品
+            - link "Dexa AI Dexa AI AI播客搜索工具" [ref=e2017] [cursor=pointer]:
+              - /url: /site/344
+              - img "Dexa AI" [ref=e2019]
+              - generic [ref=e2020]:
+                - heading "Dexa AI" [level=3] [ref=e2021]
+                - paragraph [ref=e2022]: AI播客搜索工具
+            - link "XAnswer XAnswer 支持生成思维导图的免费AI搜索工具" [ref=e2023] [cursor=pointer]:
+              - /url: /site/345
+              - img "XAnswer" [ref=e2025]
+              - generic [ref=e2026]:
+                - heading "XAnswer" [level=3] [ref=e2027]
+                - paragraph [ref=e2028]: 支持生成思维导图的免费AI搜索工具
+            - link "Glean Glean 专为职场人设计的AI搜索引擎" [ref=e2029] [cursor=pointer]:
+              - /url: /site/346
+              - img "Glean" [ref=e2031]
+              - generic [ref=e2032]:
+                - heading "Glean" [level=3] [ref=e2033]
+                - paragraph [ref=e2034]: 专为职场人设计的AI搜索引擎
+            - link "AlphaSense AlphaSense 专为金融专业人士设计的AI搜索工具" [ref=e2035] [cursor=pointer]:
+              - /url: /site/347
+              - img "AlphaSense" [ref=e2037]
+              - generic [ref=e2038]:
+                - heading "AlphaSense" [level=3] [ref=e2039]
+                - paragraph [ref=e2040]: 专为金融专业人士设计的AI搜索工具
+            - link "Globe Explorer Globe Explorer 结构化AI知识搜索引擎" [ref=e2041] [cursor=pointer]:
+              - /url: /site/348
+              - img "Globe Explorer" [ref=e2043]
+              - generic [ref=e2044]:
+                - heading "Globe Explorer" [level=3] [ref=e2045]
+                - paragraph [ref=e2046]: 结构化AI知识搜索引擎
+            - link "Reportify Reportify AI投资研究问答搜索引擎" [ref=e2047] [cursor=pointer]:
+              - /url: /site/349
+              - img "Reportify" [ref=e2049]
+              - generic [ref=e2050]:
+                - heading "Reportify" [level=3] [ref=e2051]
+                - paragraph [ref=e2052]: AI投资研究问答搜索引擎
+            - link "Phind Phind 专为开发者设计的AI搜索引擎" [ref=e2053] [cursor=pointer]:
+              - /url: /site/350
+              - img "Phind" [ref=e2055]
+              - generic [ref=e2056]:
+                - heading "Phind" [level=3] [ref=e2057]
+                - paragraph [ref=e2058]: 专为开发者设计的AI搜索引擎
+        - generic [ref=e2059]:
+          - heading "学 AI学习网站" [level=2] [ref=e2061]:
+            - generic [ref=e2062]: 学
+            - text: AI学习网站
+          - generic [ref=e2063]:
+            - link "fast.ai fast.ai 免费开源的深度学习和AI学习网站，让每个人都参与到AI！" [ref=e2064] [cursor=pointer]:
+              - /url: /site/355
+              - img "fast.ai" [ref=e2066]
+              - generic [ref=e2067]:
+                - heading "fast.ai" [level=3] [ref=e2068]
+                - paragraph [ref=e2069]: 免费开源的深度学习和AI学习网站，让每个人都参与到AI！
+            - link "学吧导航 学吧导航 学习爱好者首选的学霸导航网站" [ref=e2070] [cursor=pointer]:
+              - /url: /site/356
+              - img "学吧导航" [ref=e2072]
+              - generic [ref=e2073]:
+                - heading "学吧导航" [level=3] [ref=e2074]
+                - paragraph [ref=e2075]: 学习爱好者首选的学霸导航网站
+            - link "Lynote Lynote 面向学生、研究者和职场人士的 AI 学习助手" [ref=e2076] [cursor=pointer]:
+              - /url: /site/357
+              - img "Lynote" [ref=e2078]
+              - generic [ref=e2079]:
+                - heading "Lynote" [level=3] [ref=e2080]
+                - paragraph [ref=e2081]: 面向学生、研究者和职场人士的 AI 学习助手
+            - link "Coursera Coursera 知名MOOC平台，提供众多人工智能和机器学习课程" [ref=e2082] [cursor=pointer]:
+              - /url: /site/358
+              - img "Coursera" [ref=e2084]
+              - generic [ref=e2085]:
+                - heading "Coursera" [level=3] [ref=e2086]
+                - paragraph [ref=e2087]: 知名MOOC平台，提供众多人工智能和机器学习课程
+            - link "Elements of AI Elements of AI 免费在线AI通识学习课程" [ref=e2088] [cursor=pointer]:
+              - /url: /site/359
+              - img "Elements of AI" [ref=e2090]
+              - generic [ref=e2091]:
+                - heading "Elements of AI" [level=3] [ref=e2092]
+                - paragraph [ref=e2093]: 免费在线AI通识学习课程
+            - link "DeepLearning.AI DeepLearning.AI 深度学习和人工智能学习平台" [ref=e2094] [cursor=pointer]:
+              - /url: /site/360
+              - img "DeepLearning.AI" [ref=e2096]
+              - generic [ref=e2097]:
+                - heading "DeepLearning.AI" [level=3] [ref=e2098]
+                - paragraph [ref=e2099]: 深度学习和人工智能学习平台
+            - link "动手学深度学习 动手学深度学习 结合理论与实践的深度学习教材和课程" [ref=e2100] [cursor=pointer]:
+              - /url: /site/361
+              - img "动手学深度学习" [ref=e2102]
+              - generic [ref=e2103]:
+                - heading "动手学深度学习" [level=3] [ref=e2104]
+                - paragraph [ref=e2105]: 结合理论与实践的深度学习教材和课程
+            - link "MachineLearningMastery MachineLearningMastery 免费在线的机器学习平台，提供从基础到高级全面教程" [ref=e2106] [cursor=pointer]:
+              - /url: /site/362
+              - img "MachineLearningMastery" [ref=e2108]
+              - generic [ref=e2109]:
+                - heading "MachineLearningMastery" [level=3] [ref=e2110]
+                - paragraph [ref=e2111]: 免费在线的机器学习平台，提供从基础到高级全面教程
+            - link "Generative AI for Beginners Generative AI for Beginners 微软推出的面向初学者的免费生成式人工智能课程" [ref=e2112] [cursor=pointer]:
+              - /url: /site/363
+              - img "Generative AI for Beginners" [ref=e2114]
+              - generic [ref=e2115]:
+                - heading "Generative AI for Beginners" [level=3] [ref=e2116]
+                - paragraph [ref=e2117]: 微软推出的面向初学者的免费生成式人工智能课程
+            - link "ML for Beginners ML for Beginners 微软推出的免费开源的机器学习课程，GitHub标星7万+" [ref=e2118] [cursor=pointer]:
+              - /url: /site/364
+              - img "ML for Beginners" [ref=e2120]
+              - generic [ref=e2121]:
+                - heading "ML for Beginners" [level=3] [ref=e2122]
+                - paragraph [ref=e2123]: 微软推出的免费开源的机器学习课程，GitHub标星7万+
+            - link "Kaggle Kaggle 机器学习和数据科学社区" [ref=e2124] [cursor=pointer]:
+              - /url: /site/365
+              - img "Kaggle" [ref=e2126]
+              - generic [ref=e2127]:
+                - heading "Kaggle" [level=3] [ref=e2128]
+                - paragraph [ref=e2129]: 机器学习和数据科学社区
+            - link "神经网络入门 神经网络入门 Brilliant推出的Introduction to Neural Networks课程" [ref=e2130] [cursor=pointer]:
+              - /url: /site/366
+              - img "神经网络入门" [ref=e2132]
+              - generic [ref=e2133]:
+                - heading "神经网络入门" [level=3] [ref=e2134]
+                - paragraph [ref=e2135]: Brilliant推出的Introduction to Neural Networks课程
+            - link "Trancy Trancy AI驱动的语言学习工具" [ref=e2136] [cursor=pointer]:
+              - /url: /site/367
+              - img "Trancy" [ref=e2138]
+              - generic [ref=e2139]:
+                - heading "Trancy" [level=3] [ref=e2140]
+                - paragraph [ref=e2141]: AI驱动的语言学习工具
+            - link "Reading Coach Reading Coach 微软推出的免费个性化AI阅读学习教练" [ref=e2142] [cursor=pointer]:
+              - /url: /site/368
+              - img "Reading Coach" [ref=e2144]
+              - generic [ref=e2145]:
+                - heading "Reading Coach" [level=3] [ref=e2146]
+                - paragraph [ref=e2147]: 微软推出的免费个性化AI阅读学习教练
+            - link "飞桨AI Studio 飞桨AI Studio 百度推出的AI学习与实训社区" [ref=e2148] [cursor=pointer]:
+              - /url: /site/369
+              - img "飞桨AI Studio" [ref=e2150]
+              - generic [ref=e2151]:
+                - heading "飞桨AI Studio" [level=3] [ref=e2152]
+                - paragraph [ref=e2153]: 百度推出的AI学习与实训社区
+            - link "腾讯扣叮 腾讯扣叮 腾讯推出的青少年编程教育平台" [ref=e2154] [cursor=pointer]:
+              - /url: /site/370
+              - img "腾讯扣叮" [ref=e2156]
+              - generic [ref=e2157]:
+                - heading "腾讯扣叮" [level=3] [ref=e2158]
+                - paragraph [ref=e2159]: 腾讯推出的青少年编程教育平台
+            - link "阿里云AI学习路线 阿里云AI学习路线 阿里云推出的人工智能学习路线（学+测）" [ref=e2160] [cursor=pointer]:
+              - /url: /site/371
+              - img "阿里云AI学习路线" [ref=e2162]
+              - generic [ref=e2163]:
+                - heading "阿里云AI学习路线" [level=3] [ref=e2164]
+                - paragraph [ref=e2165]: 阿里云推出的人工智能学习路线（学+测）
+            - link "Udacity AI学院 Udacity AI学院 Udacity推出的School of AI，从入门到高级" [ref=e2166] [cursor=pointer]:
+              - /url: /site/372
+              - img "Udacity AI学院" [ref=e2168]
+              - generic [ref=e2169]:
+                - heading "Udacity AI学院" [level=3] [ref=e2170]
+                - paragraph [ref=e2171]: Udacity推出的School of AI，从入门到高级
+            - link "Google AI Google AI Google AI学习平台" [ref=e2172] [cursor=pointer]:
+              - /url: /site/373
+              - img "Google AI" [ref=e2174]
+              - generic [ref=e2175]:
+                - heading "Google AI" [level=3] [ref=e2176]
+                - paragraph [ref=e2177]: Google AI学习平台
+            - link "ShowMeAI知识社区 ShowMeAI知识社区 人工智能领域的资料库和学习社区" [ref=e2178] [cursor=pointer]:
+              - /url: /site/374
+              - img "ShowMeAI知识社区" [ref=e2180]
+              - generic [ref=e2181]:
+                - heading "ShowMeAI知识社区" [level=3] [ref=e2182]
+                - paragraph [ref=e2183]: 人工智能领域的资料库和学习社区
+            - link "AI大学堂 AI大学堂 科大讯飞推出的在线AI学习平台" [ref=e2184] [cursor=pointer]:
+              - /url: /site/351
+              - img "AI大学堂" [ref=e2186]
+              - generic [ref=e2187]:
+                - heading "AI大学堂" [level=3] [ref=e2188]
+                - paragraph [ref=e2189]: 科大讯飞推出的在线AI学习平台
+            - link "堆友AI学习 堆友AI学习 堆友AI推出的AI设计知识学习网站" [ref=e2190] [cursor=pointer]:
+              - /url: /site/352
+              - img "堆友AI学习" [ref=e2192]
+              - generic [ref=e2193]:
+                - heading "堆友AI学习" [level=3] [ref=e2194]
+                - paragraph [ref=e2195]: 堆友AI推出的AI设计知识学习网站
+            - link "AI分享圈 AI分享圈 最好最全的AI免费资源分享网站" [ref=e2196] [cursor=pointer]:
+              - /url: /site/353
+              - img "AI分享圈" [ref=e2198]
+              - generic [ref=e2199]:
+                - heading "AI分享圈" [level=3] [ref=e2200]
+                - paragraph [ref=e2201]: 最好最全的AI免费资源分享网站
+            - link "Day of AI Day of AI 麻省理工学院（MIT）推出的免费AI学习平台" [ref=e2202] [cursor=pointer]:
+              - /url: /site/354
+              - img "Day of AI" [ref=e2204]
+              - generic [ref=e2205]:
+                - heading "Day of AI" [level=3] [ref=e2206]
+                - paragraph [ref=e2207]: 麻省理工学院（MIT）推出的免费AI学习平台
+        - generic [ref=e2208]:
+          - heading "模 AI模型评测" [level=2] [ref=e2210]:
+            - generic [ref=e2211]: 模
+            - text: AI模型评测
+          - generic [ref=e2212]:
+            - link "AGI-Eval AGI-Eval AI大模型评测社区" [ref=e2213] [cursor=pointer]:
+              - /url: /site/406
+              - img "AGI-Eval" [ref=e2215]
+              - generic [ref=e2216]:
+                - heading "AGI-Eval" [level=3] [ref=e2217]
+                - paragraph [ref=e2218]: AI大模型评测社区
+            - link "OpenCompass OpenCompass 上海人工智能实验室推出的大模型开放评测体系" [ref=e2219] [cursor=pointer]:
+              - /url: /site/407
+              - img "OpenCompass" [ref=e2221]
+              - generic [ref=e2222]:
+                - heading "OpenCompass" [level=3] [ref=e2223]
+                - paragraph [ref=e2224]: 上海人工智能实验室推出的大模型开放评测体系
+            - link "CMMLU CMMLU 一个综合性的大模型中文评估基准" [ref=e2225] [cursor=pointer]:
+              - /url: /site/408
+              - img "CMMLU" [ref=e2227]
+              - generic [ref=e2228]:
+                - heading "CMMLU" [level=3] [ref=e2229]
+                - paragraph [ref=e2230]: 一个综合性的大模型中文评估基准
+            - link "MMBench MMBench 全方位的多模态大模型能力评测体系" [ref=e2231] [cursor=pointer]:
+              - /url: /site/409
+              - img "MMBench" [ref=e2233]
+              - generic [ref=e2234]:
+                - heading "MMBench" [level=3] [ref=e2235]
+                - paragraph [ref=e2236]: 全方位的多模态大模型能力评测体系
+            - link "HELM HELM 斯坦福大学推出的大模型评测体系" [ref=e2237] [cursor=pointer]:
+              - /url: /site/410
+              - img "HELM" [ref=e2239]
+              - generic [ref=e2240]:
+                - heading "HELM" [level=3] [ref=e2241]
+                - paragraph [ref=e2242]: 斯坦福大学推出的大模型评测体系
+            - link "LMArena LMArena AI模型评估平台" [ref=e2243] [cursor=pointer]:
+              - /url: /site/411
+              - img "LMArena" [ref=e2245]
+              - generic [ref=e2246]:
+                - heading "LMArena" [level=3] [ref=e2247]
+                - paragraph [ref=e2248]: AI模型评估平台
+            - link "LLMEval3 LLMEval3 由复旦大学NLP实验室推出的大模型评测基准" [ref=e2249] [cursor=pointer]:
+              - /url: /site/412
+              - img "LLMEval3" [ref=e2251]
+              - generic [ref=e2252]:
+                - heading "LLMEval3" [level=3] [ref=e2253]
+                - paragraph [ref=e2254]: 由复旦大学NLP实验室推出的大模型评测基准
+            - link "H2O EvalGPT H2O EvalGPT H2O.ai推出的基于Elo评级方法的大模型评估系统" [ref=e2255] [cursor=pointer]:
+              - /url: /site/413
+              - img "H2O EvalGPT" [ref=e2257]
+              - generic [ref=e2258]:
+                - heading "H2O EvalGPT" [level=3] [ref=e2259]
+                - paragraph [ref=e2260]: H2O.ai推出的基于Elo评级方法的大模型评估系统
+            - link "PubMedQA PubMedQA 生物医学研究问答数据集和模型得分排行榜" [ref=e2261] [cursor=pointer]:
+              - /url: /site/414
+              - img "PubMedQA" [ref=e2263]
+              - generic [ref=e2264]:
+                - heading "PubMedQA" [level=3] [ref=e2265]
+                - paragraph [ref=e2266]: 生物医学研究问答数据集和模型得分排行榜
+            - link "MagicArena MagicArena 字节推出的视觉生成模型对战平台" [ref=e2267] [cursor=pointer]:
+              - /url: /site/400
+              - img "MagicArena" [ref=e2269]
+              - generic [ref=e2270]:
+                - heading "MagicArena" [level=3] [ref=e2271]
+                - paragraph [ref=e2272]: 字节推出的视觉生成模型对战平台
+            - link "MMLU MMLU 大规模多任务语言理解基准" [ref=e2273] [cursor=pointer]:
+              - /url: /site/401
+              - img "MMLU" [ref=e2275]
+              - generic [ref=e2276]:
+                - heading "MMLU" [level=3] [ref=e2277]
+                - paragraph [ref=e2278]: 大规模多任务语言理解基准
+            - link "Open LLM Leaderboard Open LLM Leaderboard Hugging Face推出的开源大模型排行榜单" [ref=e2279] [cursor=pointer]:
+              - /url: /site/402
+              - img "Open LLM Leaderboard" [ref=e2281]
+              - generic [ref=e2282]:
+                - heading "Open LLM Leaderboard" [level=3] [ref=e2283]
+                - paragraph [ref=e2284]: Hugging Face推出的开源大模型排行榜单
+            - link "C-Eval C-Eval 一个全面的中文基础模型评估套件" [ref=e2285] [cursor=pointer]:
+              - /url: /site/403
+              - img "C-Eval" [ref=e2287]
+              - generic [ref=e2288]:
+                - heading "C-Eval" [level=3] [ref=e2289]
+                - paragraph [ref=e2290]: 一个全面的中文基础模型评估套件
+            - link "FlagEval FlagEval 智源研究院推出的FlagEval（天秤）大模型评测平台" [ref=e2291] [cursor=pointer]:
+              - /url: /site/404
+              - img "FlagEval" [ref=e2293]
+              - generic [ref=e2294]:
+                - heading "FlagEval" [level=3] [ref=e2295]
+                - paragraph [ref=e2296]: 智源研究院推出的FlagEval（天秤）大模型评测平台
+            - link "SuperCLUE SuperCLUE 中文通用大模型综合性测评基准" [ref=e2297] [cursor=pointer]:
+              - /url: /site/405
+              - img "SuperCLUE" [ref=e2299]
+              - generic [ref=e2300]:
+                - heading "SuperCLUE" [level=3] [ref=e2301]
+                - paragraph [ref=e2302]: 中文通用大模型综合性测评基准
+        - generic [ref=e2303]:
+          - heading "内 AI内容检测" [level=2] [ref=e2305]:
+            - generic [ref=e2306]: 内
+            - text: AI内容检测
+          - generic [ref=e2307]:
+            - link "朱雀AI检测 朱雀AI检测 腾讯推出的AI内容检测助手" [ref=e2308] [cursor=pointer]:
+              - /url: /site/415
+              - img "朱雀AI检测" [ref=e2310]
+              - generic [ref=e2311]:
+                - heading "朱雀AI检测" [level=3] [ref=e2312]
+                - paragraph [ref=e2313]: 腾讯推出的AI内容检测助手
+            - link "GPTZero GPTZero 超过百万人都在用的免费AI内容检测工具" [ref=e2314] [cursor=pointer]:
+              - /url: /site/416
+              - img "GPTZero" [ref=e2316]
+              - generic [ref=e2317]:
+                - heading "GPTZero" [level=3] [ref=e2318]
+                - paragraph [ref=e2319]: 超过百万人都在用的免费AI内容检测工具
+            - link "StudyCorgi ChatGPT Detector StudyCorgi ChatGPT Detector 免费的检测论文是否由ChatGPT生成的工具" [ref=e2320] [cursor=pointer]:
+              - /url: /site/417
+              - img "StudyCorgi ChatGPT Detector" [ref=e2322]
+              - generic [ref=e2323]:
+                - heading "StudyCorgi ChatGPT Detector" [level=3] [ref=e2324]
+                - paragraph [ref=e2325]: 免费的检测论文是否由ChatGPT生成的工具
+            - link "AISEO AI Content Detector AISEO AI Content Detector AISEO推出的AI内容检测器" [ref=e2326] [cursor=pointer]:
+              - /url: /site/418
+              - img "AISEO AI Content Detector" [ref=e2328]
+              - generic [ref=e2329]:
+                - heading "AISEO AI Content Detector" [level=3] [ref=e2330]
+                - paragraph [ref=e2331]: AISEO推出的AI内容检测器
+            - link "Proofig Proofig AI检测科研图像是否造假抄袭" [ref=e2332] [cursor=pointer]:
+              - /url: /site/419
+              - img "Proofig" [ref=e2334]
+              - generic [ref=e2335]:
+                - heading "Proofig" [level=3] [ref=e2336]
+                - paragraph [ref=e2337]: AI检测科研图像是否造假抄袭
+            - link "Writecream AI Content Detector Writecream AI Content Detector Writecream推出的AI内容检测工具" [ref=e2338] [cursor=pointer]:
+              - /url: /site/420
+              - img "Writecream AI Content Detector" [ref=e2340]
+              - generic [ref=e2341]:
+                - heading "Writecream AI Content Detector" [level=3] [ref=e2342]
+                - paragraph [ref=e2343]: Writecream推出的AI内容检测工具
+            - link "Smodin AI Content Detector Smodin AI Content Detector 多语种AI内容检测工具" [ref=e2344] [cursor=pointer]:
+              - /url: /site/421
+              - img "Smodin AI Content Detector" [ref=e2346]
+              - generic [ref=e2347]:
+                - heading "Smodin AI Content Detector" [level=3] [ref=e2348]
+                - paragraph [ref=e2349]: 多语种AI内容检测工具
+            - link "Sapling AI Content Detector Sapling AI Content Detector Sapling.ai推出的免费在线AI内容检测工具" [ref=e2350] [cursor=pointer]:
+              - /url: /site/422
+              - img "Sapling AI Content Detector" [ref=e2352]
+              - generic [ref=e2353]:
+                - heading "Sapling AI Content Detector" [level=3] [ref=e2354]
+                - paragraph [ref=e2355]: Sapling.ai推出的免费在线AI内容检测工具
+            - link "睿信论文检测 睿信论文检测 中科睿鉴推出的一站式学术诚信检测系统" [ref=e2356] [cursor=pointer]:
+              - /url: /site/423
+              - img "睿信论文检测" [ref=e2358]
+              - generic [ref=e2359]:
+                - heading "睿信论文检测" [level=3] [ref=e2360]
+                - paragraph [ref=e2361]: 中科睿鉴推出的一站式学术诚信检测系统
+            - link "挖错网 挖错网 AI内容审核校对平台，一键检测内容自动纠错" [ref=e2362] [cursor=pointer]:
+              - /url: /site/424
+              - img "挖错网" [ref=e2364]
+              - generic [ref=e2365]:
+                - heading "挖错网" [level=3] [ref=e2366]
+                - paragraph [ref=e2367]: AI内容审核校对平台，一键检测内容自动纠错
+            - link "团象 团象 AI内容检测与优化平台" [ref=e2368] [cursor=pointer]:
+              - /url: /site/425
+              - img "团象" [ref=e2370]
+              - generic [ref=e2371]:
+                - heading "团象" [level=3] [ref=e2372]
+                - paragraph [ref=e2373]: AI内容检测与优化平台
+            - link "AI Content Detector AI Content Detector Writer推出的AI内容检测工具" [ref=e2374] [cursor=pointer]:
+              - /url: /site/426
+              - img "AI Content Detector" [ref=e2376]
+              - generic [ref=e2377]:
+                - heading "AI Content Detector" [level=3] [ref=e2378]
+                - paragraph [ref=e2379]: Writer推出的AI内容检测工具
+            - link "Originality.AI Originality.AI 原创度和AI内容检测" [ref=e2380] [cursor=pointer]:
+              - /url: /site/427
+              - img "Originality.AI" [ref=e2382]
+              - generic [ref=e2383]:
+                - heading "Originality.AI" [level=3] [ref=e2384]
+                - paragraph [ref=e2385]: 原创度和AI内容检测
+            - link "CopyLeaks CopyLeaks AI内容检测和分级" [ref=e2386] [cursor=pointer]:
+              - /url: /site/428
+              - img "CopyLeaks" [ref=e2388]
+              - generic [ref=e2389]:
+                - heading "CopyLeaks" [level=3] [ref=e2390]
+                - paragraph [ref=e2391]: AI内容检测和分级
+            - link "Winston AI Winston AI 强大的AI内容检测解决方案" [ref=e2392] [cursor=pointer]:
+              - /url: /site/429
+              - img "Winston AI" [ref=e2394]
+              - generic [ref=e2395]:
+                - heading "Winston AI" [level=3] [ref=e2396]
+                - paragraph [ref=e2397]: 强大的AI内容检测解决方案
+        - generic [ref=e2398]:
+          - heading "提 AI提示指令" [level=2] [ref=e2400]:
+            - generic [ref=e2401]: 提
+            - text: AI提示指令
+          - generic [ref=e2402]:
+            - link "Stable Diffusion Prompt Book Stable Diffusion Prompt Book OpenArt平台推出的免费提示词指南手册" [ref=e2403] [cursor=pointer]:
+              - /url: /site/435
+              - img "Stable Diffusion Prompt Book" [ref=e2405]
+              - generic [ref=e2406]:
+                - heading "Stable Diffusion Prompt Book" [level=3] [ref=e2407]
+                - paragraph [ref=e2408]: OpenArt平台推出的免费提示词指南手册
+            - link "LocalBanana LocalBanana 专注于AI图像Prompt收集与结构化的平台" [ref=e2409] [cursor=pointer]:
+              - /url: /site/436
+              - img "LocalBanana" [ref=e2411]
+              - generic [ref=e2412]:
+                - heading "LocalBanana" [level=3] [ref=e2413]
+                - paragraph [ref=e2414]: 专注于AI图像Prompt收集与结构化的平台
+            - link "PromptHero PromptHero AI提示词优化与搜索平台" [ref=e2415] [cursor=pointer]:
+              - /url: /site/437
+              - img "PromptHero" [ref=e2417]
+              - generic [ref=e2418]:
+                - heading "PromptHero" [level=3] [ref=e2419]
+                - paragraph [ref=e2420]: AI提示词优化与搜索平台
+            - link "ClickPrompt ClickPrompt 在线AI提示词设计工具" [ref=e2421] [cursor=pointer]:
+              - /url: /site/438
+              - img "ClickPrompt" [ref=e2423]
+              - generic [ref=e2424]:
+                - heading "ClickPrompt" [level=3] [ref=e2425]
+                - paragraph [ref=e2426]: 在线AI提示词设计工具
+            - link "AI Prompt Generator AI Prompt Generator AI Prompt Generator是什么 A..." [ref=e2427] [cursor=pointer]:
+              - /url: /site/439
+              - img "AI Prompt Generator" [ref=e2429]
+              - generic [ref=e2430]:
+                - heading "AI Prompt Generator" [level=3] [ref=e2431]
+                - paragraph [ref=e2432]: AI Prompt Generator是什么 A...
+            - link "AI Short AI Short AI提示词管理和共享平台，多种场景的快捷指令" [ref=e2433] [cursor=pointer]:
+              - /url: /site/440
+              - img "AI Short" [ref=e2435]
+              - generic [ref=e2436]:
+                - heading "AI Short" [level=3] [ref=e2437]
+                - paragraph [ref=e2438]: AI提示词管理和共享平台，多种场景的快捷指令
+            - link "LangGPT LangGPT LangGPT是什么 LangGPT是一种..." [ref=e2439] [cursor=pointer]:
+              - /url: /site/441
+              - img "LangGPT" [ref=e2441]
+              - generic [ref=e2442]:
+                - heading "LangGPT" [level=3] [ref=e2443]
+                - paragraph [ref=e2444]: LangGPT是什么 LangGPT是一种...
+            - link "Generrated Generrated AI提示词参考平台" [ref=e2445] [cursor=pointer]:
+              - /url: /site/442
+              - img "Generrated" [ref=e2447]
+              - generic [ref=e2448]:
+                - heading "Generrated" [level=3] [ref=e2449]
+                - paragraph [ref=e2450]: AI提示词参考平台
+            - link "PublicPrompts PublicPrompts PublicPrompts是什么 PublicP..." [ref=e2451] [cursor=pointer]:
+              - /url: /site/443
+              - img "PublicPrompts" [ref=e2453]
+              - generic [ref=e2454]:
+                - heading "PublicPrompts" [level=3] [ref=e2455]
+                - paragraph [ref=e2456]: PublicPrompts是什么 PublicP...
+            - link "Snack Prompt Snack Prompt 输入正确的提示词，可以让Cha..." [ref=e2457] [cursor=pointer]:
+              - /url: /site/444
+              - img "Snack Prompt" [ref=e2459]
+              - generic [ref=e2460]:
+                - heading "Snack Prompt" [level=3] [ref=e2461]
+                - paragraph [ref=e2462]: 输入正确的提示词，可以让Cha...
+            - link "AIPRM AIPRM AI 提示词库和提示词管理工具" [ref=e2463] [cursor=pointer]:
+              - /url: /site/445
+              - img "AIPRM" [ref=e2465]
+              - generic [ref=e2466]:
+                - heading "AIPRM" [level=3] [ref=e2467]
+                - paragraph [ref=e2468]: AI 提示词库和提示词管理工具
+            - link "PromptFolder PromptFolder AI提示词生成和管理工具" [ref=e2469] [cursor=pointer]:
+              - /url: /site/446
+              - img "PromptFolder" [ref=e2471]
+              - generic [ref=e2472]:
+                - heading "PromptFolder" [level=3] [ref=e2473]
+                - paragraph [ref=e2474]: AI提示词生成和管理工具
+            - link "AI Prompt Genius AI Prompt Genius AI提示词库创建和管理工具" [ref=e2475] [cursor=pointer]:
+              - /url: /site/447
+              - img "AI Prompt Genius" [ref=e2477]
+              - generic [ref=e2478]:
+                - heading "AI Prompt Genius" [level=3] [ref=e2479]
+                - paragraph [ref=e2480]: AI提示词库创建和管理工具
+            - link "AI Prompt Library AI Prompt Library 免费的AI 提示词资源平台" [ref=e2481] [cursor=pointer]:
+              - /url: /site/448
+              - img "AI Prompt Library" [ref=e2483]
+              - generic [ref=e2484]:
+                - heading "AI Prompt Library" [level=3] [ref=e2485]
+                - paragraph [ref=e2486]: 免费的AI 提示词资源平台
+            - link "Awesome ChatGPT Prompts Awesome ChatGPT Prompts AI提示词收集和整理工具" [ref=e2487] [cursor=pointer]:
+              - /url: /site/449
+              - img "Awesome ChatGPT Prompts" [ref=e2489]
+              - generic [ref=e2490]:
+                - heading "Awesome ChatGPT Prompts" [level=3] [ref=e2491]
+                - paragraph [ref=e2492]: AI提示词收集和整理工具
+            - link "Learning Prompt Learning Prompt 免费的AI提示词学习平台" [ref=e2493] [cursor=pointer]:
+              - /url: /site/450
+              - img "Learning Prompt" [ref=e2495]
+              - generic [ref=e2496]:
+                - heading "Learning Prompt" [level=3] [ref=e2497]
+                - paragraph [ref=e2498]: 免费的AI提示词学习平台
+            - link "PromptPilot PromptPilot 火山方舟推出的AI提示词解决方案平台" [ref=e2499] [cursor=pointer]:
+              - /url: /site/430
+              - img "PromptPilot" [ref=e2501]
+              - generic [ref=e2502]:
+                - heading "PromptPilot" [level=3] [ref=e2503]
+                - paragraph [ref=e2504]: 火山方舟推出的AI提示词解决方案平台
+            - link "幂简AI提示词商城 幂简AI提示词商城 AI提示词交易与管理平台，支持定制" [ref=e2505] [cursor=pointer]:
+              - /url: /site/431
+              - img "幂简AI提示词商城" [ref=e2507]
+              - generic [ref=e2508]:
+                - heading "幂简AI提示词商城" [level=3] [ref=e2509]
+                - paragraph [ref=e2510]: AI提示词交易与管理平台，支持定制
+            - link "提示工程指南 提示工程指南 提示工程指南（Prompt Engine..." [ref=e2511] [cursor=pointer]:
+              - /url: /site/432
+              - img "提示工程指南" [ref=e2513]
+              - generic [ref=e2514]:
+                - heading "提示工程指南" [level=3] [ref=e2515]
+                - paragraph [ref=e2516]: 提示工程指南（Prompt Engine...
+            - link "Google AI提示词库 Google AI提示词库 谷歌推出的AI提示词库" [ref=e2517] [cursor=pointer]:
+              - /url: /site/433
+              - img "Google AI提示词库" [ref=e2519]
+              - generic [ref=e2520]:
+                - heading "Google AI提示词库" [level=3] [ref=e2521]
+                - paragraph [ref=e2522]: 谷歌推出的AI提示词库
+            - link "PromptPerfect PromptPerfect PromptPerfect 是一款专业好..." [ref=e2523] [cursor=pointer]:
+              - /url: /site/434
+              - img "PromptPerfect" [ref=e2525]
+              - generic [ref=e2526]:
+                - heading "PromptPerfect" [level=3] [ref=e2527]
+                - paragraph [ref=e2528]: PromptPerfect 是一款专业好...
+        - generic [ref=e2529]:
+          - heading "副 AI副业工具" [level=2] [ref=e2531]:
+            - generic [ref=e2532]: 副
+            - text: AI副业工具
+          - generic [ref=e2533]:
+            - link "CakeGrowth CakeGrowth 首个专注 AI 应用的一站式联盟营销平台" [ref=e2534] [cursor=pointer]:
+              - /url: /site/451
+              - img "CakeGrowth" [ref=e2536]
+              - generic [ref=e2537]:
+                - heading "CakeGrowth" [level=3] [ref=e2538]
+                - paragraph [ref=e2539]: 首个专注 AI 应用的一站式联盟营销平台
+            - link "Linktree Linktree 链接聚合工具，支持多链接整合至单一页面" [ref=e2540] [cursor=pointer]:
+              - /url: /site/452
+              - img "Linktree" [ref=e2542]
+              - generic [ref=e2543]:
+                - heading "Linktree" [level=3] [ref=e2544]
+                - paragraph [ref=e2545]: 链接聚合工具，支持多链接整合至单一页面
+            - link "Bitly Bitly 链接管理平台与 URL 短链接服务" [ref=e2546] [cursor=pointer]:
+              - /url: /site/453
+              - img "Bitly" [ref=e2548]
+              - generic [ref=e2549]:
+                - heading "Bitly" [level=3] [ref=e2550]
+                - paragraph [ref=e2551]: 链接管理平台与 URL 短链接服务
+            - link "PartnerStack PartnerStack 领先的合作伙伴生态系统平台" [ref=e2552] [cursor=pointer]:
+              - /url: /site/454
+              - img "PartnerStack" [ref=e2554]
+              - generic [ref=e2555]:
+                - heading "PartnerStack" [level=3] [ref=e2556]
+                - paragraph [ref=e2557]: 领先的合作伙伴生态系统平台
+            - link "impact.com impact.com AI 原生合作伙伴关系管理平台" [ref=e2558] [cursor=pointer]:
+              - /url: /site/455
+              - img "impact.com" [ref=e2560]
+              - generic [ref=e2561]:
+                - heading "impact.com" [level=3] [ref=e2562]
+                - paragraph [ref=e2563]: AI 原生合作伙伴关系管理平台
+            - link "微信公众平台 微信公众平台 腾讯推出的官方内容创作与服务平台" [ref=e2564] [cursor=pointer]:
+              - /url: /site/456
+              - img "微信公众平台" [ref=e2566]
+              - generic [ref=e2567]:
+                - heading "微信公众平台" [level=3] [ref=e2568]
+                - paragraph [ref=e2569]: 腾讯推出的官方内容创作与服务平台
+            - link "头条号 头条号 字节跳动推出的内容创作平台" [ref=e2570] [cursor=pointer]:
+              - /url: /site/457
+              - img "头条号" [ref=e2572]
+              - generic [ref=e2573]:
+                - heading "头条号" [level=3] [ref=e2574]
+                - paragraph [ref=e2575]: 字节跳动推出的内容创作平台
+            - link "新榜 新榜 新媒体数据服务平台" [ref=e2576] [cursor=pointer]:
+              - /url: /site/458
+              - img "新榜" [ref=e2578]
+              - generic [ref=e2579]:
+                - heading "新榜" [level=3] [ref=e2580]
+                - paragraph [ref=e2581]: 新媒体数据服务平台
+    - contentinfo [ref=e2582]:
+      - generic [ref=e2583]:
+        - paragraph [ref=e2584]: WebStack-WL 网址导航 · 收录优质网站与工具
+        - paragraph [ref=e2585]: © 2026 WebStack-WL

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="webstack.module.siteClickLog.mapper.SiteClickLogMapper">
+
+    <select id="selectClickLogPage" resultType="webstack.module.siteClickLog.vo.SiteClickLogVO">
+        SELECT
+            l.id,
+            l.site_id,
+            s.title AS site_title,
+            l.user_id,
+            l.ip,
+            l.create_time
+        FROM site_click_log l
+        LEFT JOIN site s ON l.site_id = s.id
+        <where>
+            <if test="dto.siteId != null">
+                AND l.site_id = #{dto.siteId}
+            </if>
+        </where>
+        ORDER BY l.create_time DESC
+    </select>
+
+    <select id="countDailyBetween" resultType="webstack.module.dashboard.vo.DailyCountVO">
+        SELECT DATE(create_time) AS statDate, COUNT(*) AS count
+        FROM site_click_log
+        WHERE create_time &gt;= #{startTime}
+          AND create_time &lt; #{endTime}
+        GROUP BY DATE(create_time)
+        ORDER BY statDate
+    </select>
+
+</mapper>

@@ -1,0 +1,131 @@
+
+erDiagram
+    CATEGORY {
+        int id PK
+        int parent_id FK
+        string title
+        string icon
+        int sort
+        boolean visible
+    }
+    
+    SITE {
+        int id PK
+        int category_id FK
+        string title
+        string url
+        string description
+        string thumb
+        int like_count
+        int comment_count
+        int click_count
+        boolean is_recommended
+        int sort
+        boolean visible
+    }
+    
+    TAG {
+        int id PK
+        string tag_name
+        datetime create_time
+    }
+    
+    SITE_TAG_RELATION {
+        bigint id PK
+        int site_id FK
+        int tag_id FK
+    }
+    
+    SITE_SECTION {
+        int id PK
+        int site_id FK
+        string title
+        int sort
+        datetime create_time
+    }
+    
+    SITE_SECTION_CONTENT {
+        int id PK
+        int section_id FK
+        string content_type
+        string text_content
+        json json_data
+        int sort
+    }
+    
+    SYS_USER {
+        bigint id PK
+        string username
+        string password
+        string name
+        string avatar
+        int sex
+        string email
+        string phone
+        string role
+        int status
+        datetime last_login_time
+        string last_login_ip
+    }
+    
+    SITE_COMMENT {
+        bigint id PK
+        int site_id FK
+        bigint user_id FK
+        string guest_name
+        string guest_email
+        string content
+        bigint parent_id FK
+        int status
+        datetime create_time
+    }
+    
+    SITE_LIKE {
+        bigint id PK
+        int site_id FK
+        bigint user_id FK
+        string ip
+        datetime create_time
+    }
+    
+    SITE_CLICK_LOG {
+        bigint id PK
+        int site_id FK
+        bigint user_id FK
+        string ip
+        datetime create_time
+    }
+    
+    SYS_NOTICE {
+        bigint id PK
+        bigint sender_id FK
+        string sender_name
+        bigint receiver_id FK
+        string notice_type
+        int source_site_id FK
+        bigint source_comment_id FK
+        string title
+        string summary
+        string content
+        int is_read
+        datetime read_time
+    }
+    
+    CATEGORY ||--o{ CATEGORY : "parent_id"
+    CATEGORY ||--o{ SITE : "category_id"
+    SITE ||--o{ SITE_TAG_RELATION : "site_id"
+    TAG ||--o{ SITE_TAG_RELATION : "tag_id"
+    SITE ||--o{ SITE_SECTION : "site_id"
+    SITE_SECTION ||--o{ SITE_SECTION_CONTENT : "section_id"
+    SITE ||--o{ SITE_COMMENT : "site_id"
+    SITE_COMMENT ||--o{ SITE_COMMENT : "parent_id"
+    SYS_USER ||--o{ SITE_COMMENT : "user_id"
+    SITE ||--o{ SITE_LIKE : "site_id"
+    SYS_USER ||--o{ SITE_LIKE : "user_id"
+    SITE ||--o{ SITE_CLICK_LOG : "site_id"
+    SYS_USER ||--o{ SITE_CLICK_LOG : "user_id"
+    SYS_USER ||--o{ SYS_NOTICE : "receiver_id"
+    SYS_USER ||--o{ SYS_NOTICE : "sender_id"
+    SITE ||--o{ SYS_NOTICE : "source_site_id"
+    SITE_COMMENT ||--o{ SYS_NOTICE : "source_comment_id"
+  

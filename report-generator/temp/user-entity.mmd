@@ -1,0 +1,82 @@
+
+classDiagram
+    class SysUser {
+        +Long id
+        +String username
+        +String password
+        +String name
+        +String avatar
+        +Integer sex
+        +String email
+        +String phone
+        +String role
+        +Integer status
+        +Date lastLoginTime
+        +String lastLoginIp
+        +Date createTime
+        +Date updateTime
+    }
+    
+    class Site {
+        +Integer id
+        +Integer categoryId
+        +String title
+        +String url
+        +String description
+        +String thumb
+        +Integer likeCount
+        +Integer commentCount
+        +Integer clickCount
+        +Boolean isRecommended
+        +Integer sort
+        +Boolean visible
+        +Date createTime
+        +Date updateTime
+    }
+    
+    class Category {
+        +Integer id
+        +Integer parentId
+        +String title
+        +String enTitle
+        +String icon
+        +Integer sort
+        +Boolean visible
+        +Date createTime
+        +Date updateTime
+    }
+    
+    class Tag {
+        +Integer id
+        +String tagName
+        +Date createTime
+    }
+    
+    class SiteComment {
+        +Long id
+        +Integer siteId
+        +Long userId
+        +String guestName
+        +String guestEmail
+        +String guestUrl
+        +String content
+        +Long parentId
+        +Integer status
+        +Date createTime
+    }
+    
+    class SiteLike {
+        +Long id
+        +Integer siteId
+        +Long userId
+        +String ip
+        +Date createTime
+    }
+    
+    SysUser "1" --> "*" SiteComment : comments
+    SysUser "1" --> "*" SiteLike : likes
+    Site "1" --> "*" SiteComment : has
+    Site "1" --> "*" SiteLike : has
+    Category "1" --> "*" Site : contains
+    Site "*" --> "*" Tag : tagged
+  

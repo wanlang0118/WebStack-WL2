@@ -1,0 +1,34 @@
+import axios from 'axios'
+
+const request = axios.create({
+  baseURL: '/api',
+  timeout: 10000
+})
+
+request.interceptors.request.use(
+  config => {
+    const token = localStorage.getItem('webstack_token')
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`
+    }
+    return config
+  },
+  error => Promise.reject(error)
+)
+
+request.interceptors.response.use(
+  response => {
+    const res = response.data
+    if (res.code !== 200) {
+      console.error(res.message || '请求失败')
+      return Promise.reject(new Error(res.message || '请求失败'))
+    }
+    return res.data
+  },
+  error => {
+    console.error(error.response?.data?.message || error.message || '网络错误')
+    return Promise.reject(error)
+  }
+)
+
+export default request
